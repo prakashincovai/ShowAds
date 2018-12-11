@@ -7,7 +7,7 @@ $(function(){
   ];
   
   
-  var imgPrefix   = "images/";
+  var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * (0 - 0 + 1)) + 0;
   var topAdBanner = $('#topad > a > img');
   
