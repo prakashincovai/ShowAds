@@ -1,16 +1,18 @@
 $(function(){
   var adBanners = [
        "google.png",
-       "flipkart728x90.jpg"
+       "flipkart728x90.jpg",
+       "samsung728x90.jpg"
   ];
   var bannerLinks = [
        "http://google.com",
-       "http://www.flipkart.com/offers/electronics?affid=prakashincovai"
+       "http://www.flipkart.com/offers/electronics?affid=prakashincovai",
+       "https://goo.gl/y4tS3k"
   ];
   
   
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
-  var randNum     = Math.floor(Math.random() * (1 - 0 + 1)) + 0;
+  var randNum     = Math.floor(Math.random() * (2 - 0 + 1)) + 0;
   var topAdBanner = $('#topad > a > img');
   
   var newBannerImg  = imgPrefix + adBanners[randNum];
