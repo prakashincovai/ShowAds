@@ -1,9 +1,9 @@
 $(function(){
   var adBanners = [
-       "GoDaddy728x90",
+       "GoDaddy728x90.gif",
        "flipkart728x90.jpg",
        "samsung728x90.jpg",
-       "GoDaddy728x901"
+       "GoDaddy728x901.gif"
   ];
   var bannerLinks = [
        "https://clnk.in/gXeG",
