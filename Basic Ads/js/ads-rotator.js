@@ -13,6 +13,8 @@
 
 $(function(){
   var adBanners = [
+       "icici728x90.jpg",
+       "bigbasket728x90.png",
        "hostgator728x90.gif",
        "GoDaddy728x90.gif",
        "flipkart728x90.jpg",
@@ -20,6 +22,8 @@ $(function(){
        "GoDaddy728x901.gif"
   ];
   var bannerLinks = [
+       "https://clnk.in/gXIT",
+       "https://clnk.in/gXJi",
        "https://clnk.in/gXfD",
        "https://clnk.in/gXeG",
        "http://www.flipkart.com/offers/electronics?affid=prakashincovai",
@@ -29,7 +33,7 @@ $(function(){
   
   
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
-  var randNum     = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
+  var randNum     = Math.floor(Math.random() * (6 - 0 + 1)) + 0;
   var topAdBanner = $('#topad > a > img');
   
   var newBannerImg  = imgPrefix + adBanners[randNum];
