@@ -5,6 +5,13 @@
         ga('create', 'UA-98674484-2', 'auto', 'blogger');
         ga('blogger.send', 'pageview');
 
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-98674484-2');
+
+
 $(function(){
   var adBanners = [
        "hostgator728x90.gif",
