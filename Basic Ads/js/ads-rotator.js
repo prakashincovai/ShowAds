@@ -13,6 +13,7 @@
 
 $(function(){
   var adBanners = [
+       "cars24728x214.jpg",
        "icici728x90.jpg",
        "bigbasket728x90.png",
        "hostgator728x90.gif",
@@ -22,6 +23,7 @@ $(function(){
        "GoDaddy728x901.gif"
   ];
   var bannerLinks = [
+       "https://clnk.in/gXQB",
        "https://clnk.in/gXIT",
        "https://clnk.in/gXJi",
        "https://clnk.in/gXfD",
@@ -33,7 +35,7 @@ $(function(){
   
   
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
-  var randNum     = Math.floor(Math.random() * (6 - 0 + 1)) + 0;
+  var randNum     = Math.floor(Math.random() * (7 - 0 + 1)) + 0;
   var topAdBanner = $('#topad > a > img');
   
   var newBannerImg  = imgPrefix + adBanners[randNum];
