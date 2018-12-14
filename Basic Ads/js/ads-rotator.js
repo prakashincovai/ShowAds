@@ -24,6 +24,7 @@ window.dataLayer = window.dataLayer || [];
   gtag('js', new Date());
   gtag('config','UA-98674484-3');
 
+if (ads_size=='728x90') {
 $(function(){
   var adBanners = [
        "cars24728x214.jpg",
@@ -58,3 +59,4 @@ $(function(){
   $(topAdBanner).attr('src',newBannerImg);
   $('#topad > a').attr('href',newBannerLink);
 });
+};
