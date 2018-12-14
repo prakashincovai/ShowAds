@@ -1,8 +1,3 @@
-var script = document.createElement("script");
-script.setAttribute("type", "text/javascript");
-script.setAttribute("src", "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/js/jquery-1.9.1.min.js");
-document.getElementsByTagName("head")[0].appendChild(script);
-
 // Individual analytics
 if (Cus_analyticsId!=='') {
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
