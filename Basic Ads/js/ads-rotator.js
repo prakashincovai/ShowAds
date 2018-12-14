@@ -1,3 +1,4 @@
+// Individual analytics
 if (Cus_analyticsId!=='') {
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -11,7 +12,7 @@ window.dataLayer = window.dataLayer || [];
   gtag('js', new Date());
   gtag('config',Cus_analyticsId);
 };
-
+// Overall analytics
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -24,6 +25,7 @@ window.dataLayer = window.dataLayer || [];
   gtag('js', new Date());
   gtag('config','UA-98674484-3');
 
+// Add Css File
   var head = document.getElementsByTagName('head')[0],
    link = document.createElement('link');
    link.type = 'text/css';
@@ -31,6 +33,7 @@ window.dataLayer = window.dataLayer || [];
    link.href = 'https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css';
    head.appendChild(link);
 
+//728x90 Size Ads Start
 if (ads_size=='728x90') {
 $(function(){
   var adBanners = [
@@ -67,3 +70,4 @@ $(function(){
   $('#topad > a').attr('href',newBannerLink);
 });
 };
+// 728x90 Size Ads End
