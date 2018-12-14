@@ -30,7 +30,6 @@ window.dataLayer = window.dataLayer || [];
    link.rel = 'stylesheet';
    link.href = 'https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css';
    head.appendChild(link);
-   return link;
 
 if (ads_size=='728x90') {
 $(function(){
