@@ -33,12 +33,6 @@ window.dataLayer = window.dataLayer || [];
    link.href = 'https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css';
    head.appendChild(link);
 
-// Add Script File
-var script = document.createElement("script");
-script.setAttribute("type", "text/javascript");
-script.setAttribute("src", "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/js/jquery-1.9.1.min.js");
-document.getElementsByTagName("head")[0].appendChild(script);
-
 //728x90 Size Ads Start
 if (ads_size=='728x90') {
 $(function(){
