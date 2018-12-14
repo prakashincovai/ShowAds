@@ -35,7 +35,7 @@ window.dataLayer = window.dataLayer || [];
 
 // Add Css File
   var head = document.getElementsByTagName('head')[0],
-   link = document.createElement('link');
+   link = document.createElement('script');
    link.type = 'text/javascript';
    link.src = 'https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/js/jquery-1.9.1.min.js';
    head.appendChild(link);
