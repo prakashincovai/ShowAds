@@ -9,8 +9,8 @@ if (Cus_analyticsId!=='') {
 
 window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag1('js', new Date());
-  gtag1('config',Cus_analyticsId);
+  gtag('js', new Date());
+  gtag('config',Cus_analyticsId);
 };
 // Overall analytics
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -22,8 +22,8 @@ window.dataLayer = window.dataLayer || [];
 
 window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  ga('js', new Date());
-  ga('config','UA-98674484-3');
+  gtag('js', new Date());
+  gtag('config','UA-98674484-3');
 
 // Add Css File
   var head = document.getElementsByTagName('head')[0],
