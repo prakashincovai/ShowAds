@@ -17,8 +17,8 @@ window.dataLayer = window.dataLayer || [];
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create','UA-98674484-3', 'auto', 'blogger');
-        ga('blogger.send', 'pageview');
+        gtag('create','UA-98674484-3', 'auto', 'blogger');
+        gtag('blogger.send', 'pageview');
 
 window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
