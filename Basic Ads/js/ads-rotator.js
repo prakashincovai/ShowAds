@@ -54,6 +54,11 @@ $(function(){
 });
 };
 // 728x90 Size Ads End
+// alert message
+if (adBanners.length=bannerLinks.length)
+  {
+   alert("Banner and link Mismatch!");
+  };
 
 function AllBannerNames() {
    adBanners = [
