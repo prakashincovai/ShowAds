@@ -38,7 +38,7 @@ if (ads_size=='Responsive') {
 $(function(){
   var adBanners = [
         "cap420x420.jpg",
-        "v420x420.jpg",
+        "v400x300.jpg",
         "lavie420x420.jpg",
         "saf420x420.jpg",
         "ama728x214.jpg",
