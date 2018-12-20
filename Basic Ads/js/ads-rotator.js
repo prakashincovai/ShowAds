@@ -40,6 +40,12 @@ if (ads_size=='Responsive') {
 $(function(){
   AllBannerNames();
   AllBannerLinks();
+        
+// alert message
+if (adBanners.length==bannerLinks.length)
+  {
+   alert("Banner and link Mismatch!");
+};
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
@@ -94,8 +100,4 @@ function AllBannerLinks() {
   ];
 };
 
-// alert message
-if (adBanners.length==bannerLinks.length)
-  {
-   alert("Banner and link Mismatch!");
-};
+
