@@ -48,13 +48,13 @@ $(function(){
        "icici728x90.jpg",
        "bigbasket728x90.png",
        "hostgator728x90.gif",
-       "GoDaddy728x90.gif",
+       "Ama400x300.jpg",
        "flipkart728x90.jpg",
        "samsung728x90.jpg",
        "skybags420x420.jpg"
   ];
   var bannerLinks = [
-         "https://clnk.in/g1om",
+        "https://clnk.in/g1om",
         "https://clnk.in/g1oi",
         "https://clnk.in/g1nX",
         "https://clnk.in/g1nW",
@@ -65,7 +65,7 @@ $(function(){
        "https://clnk.in/gXIT",
        "https://clnk.in/gXJi",
        "https://clnk.in/gXfD",
-       "https://clnk.in/gXeG",
+       "https://clnk.in/g1ox",
        "http://www.flipkart.com/offers/electronics?affid=prakashincovai",
        "https://goo.gl/y4tS3k",
        "https://clnk.in/g1or"
