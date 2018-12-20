@@ -40,7 +40,7 @@ $(function(){
         "cap420x420.jpg",
         "v400x300.jpg",
         "lavie420x420.jpg",
-        "saf420x420.jpg",
+        "saf400x300.jpg",
         "ama728x214.jpg",
         "footwear728x214.jpg",
        "wash728x214.png",
