@@ -114,12 +114,8 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
-        "cap420x420.jpg",
-        "v400x300.jpg",
-        "lavie420x420.jpg",
-        "saf400x300.jpg",
-        "ama728x214.jpg",
-        "footwear728x214.jpg",
+       "ama728x214.jpg",
+       "footwear728x214.jpg",
        "wash728x214.png",
        "cars24728x214.jpg",
        "icici728x90.jpg",
@@ -134,10 +130,6 @@ function ResponsiveBannerNames() {
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
-        "https://clnk.in/g1om",
-        "https://clnk.in/g1oi",
-        "https://clnk.in/g1nX",
-        "https://clnk.in/g1nW",
        "https://clnk.in/g0l3",
        "http://fkrt.it/6WJd72NNNN",
        "http://fkrt.it/6cPUF2NNNN",
