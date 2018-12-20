@@ -121,7 +121,7 @@ function ResponsiveBannerNames() {
        "icici728x90.jpg",
        "bigbasket728x90.png",
        "hostgator728x90.gif",
-       "Ama400x300.jpg",
+       "Sarrf728x214.png",
        "flipkart728x90.jpg",
        "samsung728x90.jpg",
        "honey728x214.png"
@@ -137,7 +137,7 @@ function ResponsiveBannerLinks() {
        "https://clnk.in/gXIT",
        "https://clnk.in/gXJi",
        "https://clnk.in/gXfD",
-       "https://clnk.in/g1ox",
+       "http://fkrt.it/z5QlzLuuuN",
        "http://www.flipkart.com/offers/electronics?affid=prakashincovai",
        "https://goo.gl/y4tS3k",
        "https://clnk.in/g1xR"
