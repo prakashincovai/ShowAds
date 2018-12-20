@@ -1,3 +1,5 @@
+var adBanners;
+var bannerLinks;
 // Individual analytics
 if (Cus_analyticsId!=='') {
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -36,7 +38,25 @@ window.dataLayer = window.dataLayer || [];
 //728x90 Size Ads Start
 if (ads_size=='Responsive') {
 $(function(){
-  var adBanners = [
+  AllBannerNames();
+  AllBannerLinks();
+   
+  var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
+  var randNum     = Math.floor(Math.random() * (14 - 0 + 1)) + 0;
+  var topAdBanner = $('#topad > a > img');
+  
+  var newBannerImg  = imgPrefix + adBanners[randNum];
+  var newBannerLink = bannerLinks[randNum];
+  
+  // update new img src and link HREF value
+  $(topAdBanner).attr('src',newBannerImg);
+  $('#topad > a').attr('href',newBannerLink);
+});
+};
+// 728x90 Size Ads End
+
+function AllBannerNames() {
+   adBanners = [
         "cap420x420.jpg",
         "v400x300.jpg",
         "lavie420x420.jpg",
@@ -53,7 +73,10 @@ $(function(){
        "samsung728x90.jpg",
        "skybags420x420.jpg"
   ];
-  var bannerLinks = [
+};
+
+function AllBannerLinks() {
+   bannerLinks = [
         "https://clnk.in/g1om",
         "https://clnk.in/g1oi",
         "https://clnk.in/g1nX",
@@ -70,18 +93,4 @@ $(function(){
        "https://goo.gl/y4tS3k",
        "https://clnk.in/g1or"
   ];
-  
-  
-  var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
-  var randNum     = Math.floor(Math.random() * (14 - 0 + 1)) + 0;
-  var topAdBanner = $('#topad > a > img');
-  
-  var newBannerImg  = imgPrefix + adBanners[randNum];
-  var newBannerLink = bannerLinks[randNum];
-  
-  // update new img src and link HREF value
-  $(topAdBanner).attr('src',newBannerImg);
-  $('#topad > a').attr('href',newBannerLink);
-});
 };
-// 728x90 Size Ads End
