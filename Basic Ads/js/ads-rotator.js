@@ -95,7 +95,7 @@ function AllBannerLinks() {
 };
 
 // alert message
-if (adBanners.length=bannerLinks.length)
+if (adBanners.length==bannerLinks.length)
   {
    alert("Banner and link Mismatch!");
 };
