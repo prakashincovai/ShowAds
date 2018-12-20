@@ -42,7 +42,7 @@ $(function(){
   AllBannerLinks();
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
-  var randNum     = Math.floor(Math.random() * (14 - 0 + 1)) + 0;
+  var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
   var topAdBanner = $('#topad > a > img');
   
   var newBannerImg  = imgPrefix + adBanners[randNum];
