@@ -124,7 +124,7 @@ function ResponsiveBannerNames() {
        "Ama400x300.jpg",
        "flipkart728x90.jpg",
        "samsung728x90.jpg",
-       "skybags420x420.jpg"
+       "honey728x214.png"
   ];
 };
 
@@ -140,7 +140,7 @@ function ResponsiveBannerLinks() {
        "https://clnk.in/g1ox",
        "http://www.flipkart.com/offers/electronics?affid=prakashincovai",
        "https://goo.gl/y4tS3k",
-       "https://clnk.in/g1or"
+       "https://clnk.in/g1xR"
   ];
 };
 
