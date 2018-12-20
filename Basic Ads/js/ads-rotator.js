@@ -37,6 +37,8 @@ window.dataLayer = window.dataLayer || [];
 if (ads_size=='Responsive') {
 $(function(){
   var adBanners = [
+        "lavie420x420.jpg",
+        "saf420x420.jpg",
         "ama728x214.jpg",
         "footwear728x214.jpg",
        "wash728x214.png",
@@ -50,6 +52,8 @@ $(function(){
        "GoDaddy728x901.gif"
   ];
   var bannerLinks = [
+        "https://clnk.in/g1nX",
+        "https://clnk.in/g1nW",
        "https://clnk.in/g0l3",
        "http://fkrt.it/6WJd72NNNN",
        "http://fkrt.it/6cPUF2NNNN",
@@ -65,7 +69,7 @@ $(function(){
   
   
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
-  var randNum     = Math.floor(Math.random() * (10 - 0 + 1)) + 0;
+  var randNum     = Math.floor(Math.random() * (12 - 0 + 1)) + 0;
   var topAdBanner = $('#topad > a > img');
   
   var newBannerImg  = imgPrefix + adBanners[randNum];
