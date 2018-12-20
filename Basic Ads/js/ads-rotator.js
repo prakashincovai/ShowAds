@@ -34,7 +34,7 @@ window.dataLayer = window.dataLayer || [];
    head.appendChild(link);
 
 //728x90 Size Ads Start
-if (ads_size=='728x90') {
+if (ads_size=='Responsive') {
 $(function(){
   var adBanners = [
         "ama728x214.jpg",
