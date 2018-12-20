@@ -51,7 +51,7 @@ $(function(){
        "GoDaddy728x90.gif",
        "flipkart728x90.jpg",
        "samsung728x90.jpg",
-       "GoDaddy728x901.gif"
+       "skybags420x420.jpg"
   ];
   var bannerLinks = [
          "https://clnk.in/g1om",
@@ -68,7 +68,7 @@ $(function(){
        "https://clnk.in/gXeG",
        "http://www.flipkart.com/offers/electronics?affid=prakashincovai",
        "https://goo.gl/y4tS3k",
-       "https://clnk.in/gXeG"
+       "https://clnk.in/g1or"
   ];
   
   
