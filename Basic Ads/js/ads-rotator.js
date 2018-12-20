@@ -35,16 +35,28 @@ window.dataLayer = window.dataLayer || [];
    link.href = 'https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css';
    head.appendChild(link);
 
-//728x90 Size Ads Start
-if (ads_size=='Responsive') {
+// Main Ads Start
 $(function(){
+if (ads_size=='Any') 
+{
   AllBannerNames();
   AllBannerLinks();
+}
+if (ads_size=='Responsive') 
+{
+  ResponsiveBannerNames();
+  ResponsiveBannerLinks();
+}
+else
+{
+     Return;           
+};
         
 // alert message
-if (adBanners.length==bannerLinks.length)
+if (adBanners.length!=bannerLinks.length)
   {
    alert("Banner and link Mismatch!");
+   return;
 };
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
@@ -58,8 +70,8 @@ if (adBanners.length==bannerLinks.length)
   $(topAdBanner).attr('src',newBannerImg);
   $('#topad > a').attr('href',newBannerLink);
 });
-};
-// 728x90 Size Ads End
+// Main Ads End
+
 function AllBannerNames() {
    adBanners = [
         "cap420x420.jpg",
@@ -100,4 +112,43 @@ function AllBannerLinks() {
   ];
 };
 
+function ResponsiveBannerNames() {
+   adBanners = [
+        "cap420x420.jpg",
+        "v400x300.jpg",
+        "lavie420x420.jpg",
+        "saf400x300.jpg",
+        "ama728x214.jpg",
+        "footwear728x214.jpg",
+       "wash728x214.png",
+       "cars24728x214.jpg",
+       "icici728x90.jpg",
+       "bigbasket728x90.png",
+       "hostgator728x90.gif",
+       "Ama400x300.jpg",
+       "flipkart728x90.jpg",
+       "samsung728x90.jpg",
+       "skybags420x420.jpg"
+  ];
+};
+
+function ResponsiveBannerLinks() {
+   bannerLinks = [
+        "https://clnk.in/g1om",
+        "https://clnk.in/g1oi",
+        "https://clnk.in/g1nX",
+        "https://clnk.in/g1nW",
+       "https://clnk.in/g0l3",
+       "http://fkrt.it/6WJd72NNNN",
+       "http://fkrt.it/6cPUF2NNNN",
+       "https://clnk.in/gXQB",
+       "https://clnk.in/gXIT",
+       "https://clnk.in/gXJi",
+       "https://clnk.in/gXfD",
+       "https://clnk.in/g1ox",
+       "http://www.flipkart.com/offers/electronics?affid=prakashincovai",
+       "https://goo.gl/y4tS3k",
+       "https://clnk.in/g1or"
+  ];
+};
 
