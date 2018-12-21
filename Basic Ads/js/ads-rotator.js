@@ -114,6 +114,10 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
+        "21122018T_728x2014.jpg",
+        "tata_21122018_728x214.png",
+        "tt_728x214.jpg",
+        "tata-cliq-728x214.jpg",
         "21122018_728x214.png",
        "ama728x214.jpg",
        "footwear728x214.jpg",
@@ -131,6 +135,10 @@ function ResponsiveBannerNames() {
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
+        "https://clnk.in/g12a",
+        "https://clnk.in/g12a",
+        "https://clnk.in/g12a",
+        "https://clnk.in/g12a",
         "http://fkrt.it/Y9k7Q2NNNN",
        "https://clnk.in/g0l3",
        "http://fkrt.it/6WJd72NNNN",
