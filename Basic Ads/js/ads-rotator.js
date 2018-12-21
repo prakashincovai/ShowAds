@@ -114,6 +114,7 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
+        "21122018_728x214.png",
        "ama728x214.jpg",
        "footwear728x214.jpg",
        "wash728x214.png",
@@ -130,6 +131,7 @@ function ResponsiveBannerNames() {
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
+        "http://fkrt.it/Y9k7Q2NNNN",
        "https://clnk.in/g0l3",
        "http://fkrt.it/6WJd72NNNN",
        "http://fkrt.it/6cPUF2NNNN",
