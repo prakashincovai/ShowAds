@@ -114,6 +114,7 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
+         "Bhai22122018_456x214.png",
         "Fire22122018_728x214.jpg",
         "21122018T_728x2014.jpg",
         "tata_21122018_728x214.png",
@@ -136,6 +137,7 @@ function ResponsiveBannerNames() {
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
+        "https://clnk.in/g2Mx",
         "https://clnk.in/g2K5",
         "https://clnk.in/g12a",
         "https://clnk.in/g12a",
