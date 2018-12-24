@@ -114,6 +114,7 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
+        "bing24122018_728x2.png",
         "GoDaddy728x90.gif",
         "GoDaddy728x901.gif",
         "Fire22122018_728x214.jpg",
@@ -138,6 +139,7 @@ function ResponsiveBannerNames() {
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
+        "https://clnk.in/g3K1",
         "https://clnk.in/gXeG",
         "https://clnk.in/gXeG",
         "https://clnk.in/g2K5",
