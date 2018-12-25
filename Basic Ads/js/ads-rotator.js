@@ -63,7 +63,7 @@ if (adBanners.length!=bannerLinks.length)
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
-  var topAdBanner = $('#topad > a > img');
+  var topAdBanner = $('#topad' + UniqueAds +' > a > img');
   
   var newBannerImg  = imgPrefix + adBanners[randNum];
   var newBannerLink = bannerLinks[randNum];
