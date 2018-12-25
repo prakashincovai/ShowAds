@@ -70,7 +70,7 @@ if (adBanners.length!=bannerLinks.length)
   
   // update new img src and link HREF value
   $(topAdBanner).attr('src',newBannerImg);
-  $('#topad' + UniqueAds ' > a').attr('href',newBannerLink);
+  $('#topad' + UniqueAds +' > a').attr('href',newBannerLink);
 });
 // Main Ads End
 
