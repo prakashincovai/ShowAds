@@ -1,6 +1,6 @@
 var adBanners;
 var bannerLinks;
-var UniqueAds = '';
+var UniqueAds;
 
 // Individual analytics
 if (Cus_analyticsId!=='') {
