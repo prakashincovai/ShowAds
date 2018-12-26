@@ -46,10 +46,14 @@ window.dataLayer = window.dataLayer || [];
 
 // Main Ads Start
 $(function(){
-        
+        // Muliple Ads not allowed
 if (Uid>1)
 {
-alert("Muliple Ads not Allowed!");
+Return;
+};
+
+if (isNaN(Uid)==true)
+{
 Return;
 };
         
