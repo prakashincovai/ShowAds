@@ -7,13 +7,7 @@ if (isNaN(Uid)==true)
 {
 Uid=0;
 }
-
 Uid = Uid +  UniqueAds;
-if (Uid>1)
-{
-alert("Muliple Ads not Allowed!");
-process.exit(1);
-};
 
 // Individual analytics
 if (Cus_analyticsId!=='') {
@@ -52,6 +46,13 @@ window.dataLayer = window.dataLayer || [];
 
 // Main Ads Start
 $(function(){
+        
+if (Uid>1)
+{
+alert("Muliple Ads not Allowed!");
+Return;
+};
+        
 if (ads_size=='Any') 
 {
   AllBannerNames();
@@ -76,14 +77,14 @@ if (adBanners.length!=bannerLinks.length)
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
-  var topAdBanner = $('#topad' + UniqueAds +' > a > img');
+  var topAdBanner = $('#topad > a > img');
   
   var newBannerImg  = imgPrefix + adBanners[randNum];
   var newBannerLink = bannerLinks[randNum];
   
   // update new img src and link HREF value
   $(topAdBanner).attr('src',newBannerImg);
-  $('#topad' + UniqueAds +' > a').attr('href',newBannerLink);
+  $('#topad > a').attr('href',newBannerLink);
 });
 // Main Ads End
 
