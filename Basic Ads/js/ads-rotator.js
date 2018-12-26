@@ -1,10 +1,15 @@
 var adBanners;
 var bannerLinks;
 var UniqueAds;
+var Uid;
 
-var Unid = Unid +  UniqueAds;
+if (isNaN(Uid)=true)
+{
+Uid=0;
+}
 
-if (Unid>1)
+Uid = Uid +  UniqueAds;
+if (Uid>1)
 {
 alert("Muliple Ads not Allowed!");
 process.exit(1);
