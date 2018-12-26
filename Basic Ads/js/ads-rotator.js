@@ -6,7 +6,8 @@ var Unid = Unid +  UniqueAds;
 
 if (Unid>1)
 {
-return;
+alert("Muliple Ads not Allowed!");
+process.exit(1);
 };
 
 // Individual analytics
