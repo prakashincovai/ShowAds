@@ -3,7 +3,7 @@ var bannerLinks;
 var UniqueAds;
 var Uid;
 
-if (isNaN(Uid)=true)
+if (isNaN(Uid)==true)
 {
 Uid=0;
 }
