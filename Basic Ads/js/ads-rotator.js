@@ -3,12 +3,6 @@ var bannerLinks;
 var UniqueAds;
 var Uid;
 
-if (isNaN(Uid)==true)
-{
-Uid=0;
-}
-Uid = Uid +  UniqueAds;
-
 // Individual analytics
 if (Cus_analyticsId!=='') {
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -46,7 +40,14 @@ window.dataLayer = window.dataLayer || [];
 
 // Main Ads Start
 $(function(){
-        // Muliple Ads not allowed
+        
+// Muliple Ads not allowed restriction Start
+if (isNaN(Uid)==true)
+{
+Uid=0;
+}
+Uid = Uid +  UniqueAds;
+        
 if (Uid!==1)
 {
 Return;
@@ -56,6 +57,7 @@ if (isNaN(Uid)==true)
 {
 Return;
 };
+// Muliple Ads not allowed restriction End
         
 if (ads_size=='Any') 
 {
