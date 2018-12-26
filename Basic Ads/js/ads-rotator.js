@@ -47,7 +47,7 @@ window.dataLayer = window.dataLayer || [];
 // Main Ads Start
 $(function(){
         // Muliple Ads not allowed
-if (Uid>1)
+if (Uid!==1)
 {
 Return;
 };
