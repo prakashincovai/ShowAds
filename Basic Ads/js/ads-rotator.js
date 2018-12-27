@@ -50,12 +50,12 @@ Uid = Uid +  UniqueAds;
         
 if (Uid!==1)
 {
-Return false;
+Return;
 }
 
 if (isNaN(Uid)==true)
 {
-Return false;
+Return;
 }
 // Muliple Ads not allowed restriction End
         
@@ -71,14 +71,14 @@ if (ads_size=='Responsive')
 }
 else
 {
-     Return false;           
+     Return;           
 }
         
 // alert message
 if (adBanners.length!=bannerLinks.length)
   {
    alert("Banner and link Mismatch!");
-   return false;
+   return;
 }
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
