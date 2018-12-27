@@ -51,12 +51,12 @@ Uid = Uid +  UniqueAds;
 if (Uid!==1)
 {
 Return;
-}
+};
 
 if (isNaN(Uid)==true)
 {
 Return;
-}
+};
 // Muliple Ads not allowed restriction End
         
 if (ads_size=='Any') 
@@ -72,14 +72,14 @@ if (ads_size=='Responsive')
 else
 {
      Return;           
-}
+};
         
 // alert message
 if (adBanners.length!=bannerLinks.length)
   {
    alert("Banner and link Mismatch!");
    return;
-}
+};
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
