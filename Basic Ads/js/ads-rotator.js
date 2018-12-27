@@ -16,7 +16,7 @@ window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config',Cus_analyticsId);
-};
+}
 // Overall analytics
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -50,13 +50,13 @@ Uid = Uid +  UniqueAds;
         
 if (Uid!==1)
 {
-Return;
-};
+Return false;
+}
 
 if (isNaN(Uid)==true)
 {
-Return;
-};
+Return false;
+}
 // Muliple Ads not allowed restriction End
         
 if (ads_size=='Any') 
@@ -71,15 +71,15 @@ if (ads_size=='Responsive')
 }
 else
 {
-     Return;           
-};
+     Return false;           
+}
         
 // alert message
 if (adBanners.length!=bannerLinks.length)
   {
    alert("Banner and link Mismatch!");
-   return;
-};
+   return false;
+}
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
@@ -91,7 +91,7 @@ if (adBanners.length!=bannerLinks.length)
   // update new img src and link HREF value
   $(topAdBanner).attr('src',newBannerImg);
   $('#topad > a').attr('href',newBannerLink);
-});
+})
 // Main Ads End
 
 function AllBannerNames() {
@@ -112,7 +112,7 @@ function AllBannerNames() {
        "samsung728x90.jpg",
        "skybags420x420.jpg"
   ];
-};
+}
 
 function AllBannerLinks() {
    bannerLinks = [
@@ -132,7 +132,7 @@ function AllBannerLinks() {
        "https://goo.gl/y4tS3k",
        "https://clnk.in/g1or"
   ];
-};
+}
 
 function ResponsiveBannerNames() {
    adBanners = [
@@ -157,7 +157,7 @@ function ResponsiveBannerNames() {
        "samsung728x90.jpg",
        "honey728x214.png"
   ];
-};
+}
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
@@ -182,5 +182,5 @@ function ResponsiveBannerLinks() {
        "https://goo.gl/y4tS3k",
        "https://clnk.in/g1xR"
   ];
-};
+}
 
