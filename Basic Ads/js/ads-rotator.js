@@ -10,16 +10,6 @@ if (isNaN(Uid)==true)
 Uid=0;
 }
 Uid = Uid +  UniqueAds;
-        
-if (Uid!==1)
-{
-return;
-};
-
-if (isNaN(Uid)==true)
-{
-return;
-};
 // Muliple Ads not allowed restriction End
 
 // Individual analytics
@@ -59,6 +49,16 @@ window.dataLayer = window.dataLayer || [];
 
 // Main Ads Start
 $(function(){
+        
+if (Uid!==1)
+{
+return;
+};
+
+if (isNaN(Uid)==true)
+{
+return;
+};
         
 if (ads_size=='Any') 
 {
