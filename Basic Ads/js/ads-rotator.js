@@ -51,12 +51,12 @@ Uid = Uid +  UniqueAds;
         
 if (Uid!==1)
 {
-Return;
+return;;
 };
 
 if (isNaN(Uid)==true)
 {
-Return;
+return;
 };
 // Muliple Ads not allowed restriction End
         
@@ -72,7 +72,7 @@ if (ads_size=='Responsive')
 }
 else
 {
-     Return;           
+     return;           
 };
         
 // alert message
