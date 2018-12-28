@@ -1,5 +1,6 @@
 var adBanners;
 var bannerLinks;
+var Cus_analyticsId;
 var UniqueAds;
 var Uid;
 
