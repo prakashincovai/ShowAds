@@ -51,7 +51,7 @@ Uid = Uid +  UniqueAds;
         
 if (Uid!==1)
 {
-return;;
+return;
 };
 
 if (isNaN(Uid)==true)
