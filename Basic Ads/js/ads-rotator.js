@@ -137,6 +137,11 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
+        "go29122018_728x214.jpg",
+        "go291220182_728x214.jpg",
+        "go281220183_728x214.gif",
+        "go281220184_728x214.jpg",
+        "go291220185_728x214.jpg",
         "bing24122018_728x2.png",
         "GoDaddy728x90.gif",
         "GoDaddy728x901.gif",
@@ -162,6 +167,11 @@ function ResponsiveBannerNames() {
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
+        "https://linksredirect.com/?pub_id=25310CL22798&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Fhotels%2F",
+        "https://linksredirect.com/?pub_id=25310CL22798&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Foffers%2Fgo-global%2F",
+        "https://linksredirect.com/?pub_id=25310CL22798&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Foffers%2Fgo-stays-on-sale%2F",
+        "https://linksredirect.com/?pub_id=25310CL22798&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Finfo%2Ffeatures-and-benefits%2F%23",
+        "https://clnk.in/g6bD",
         "https://clnk.in/g3K1",
         "https://clnk.in/gXeG",
         "https://clnk.in/gXeG",
