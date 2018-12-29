@@ -137,7 +137,7 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
-        "go29122018_728x214.jpg",
+        "go29122018_728x214.JPG",
         "go291220182_728x214.jpg",
         "go281220183_728x214.gif",
         "go281220184_728x214.jpg",
