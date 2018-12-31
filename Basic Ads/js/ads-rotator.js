@@ -82,13 +82,17 @@ if (adBanners.length!=bannerLinks.length)
    return;
 };
         
-document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
-document.write( '<div id=\"w\">\n' );
-document.write( '<div id=\"topad\">\n' );
-document.write( '<a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n' );
-document.write( '</div>\n' );
-document.write( '</div>' );
-document.close()
+//document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
+//document.write( '<div id=\"w\">\n' );
+//document.write( '<div id=\"topad\">\n' );
+//document.write( '<a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n' );
+//document.write( '</div>\n' );
+//document.write( '</div>' );
+//document.close()
+        
+$(document.body).append("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
+$(document.body).append( '<div id=\"w\">\n <div id=\"topad\">\n <a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n </div>');
+$(document.body).append( '</div>\n' );
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
