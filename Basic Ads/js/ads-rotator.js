@@ -40,12 +40,12 @@ window.dataLayer = window.dataLayer || [];
   gtag('config','UA-98674484-3');
 
 // Add Css File
-  var head = document.getElementsByTagName('head')[0],
-   link = document.createElement('link');
-   link.type = 'text/css';
-   link.rel = 'stylesheet';
-   link.href = 'https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css';
-   head.appendChild(link);
+// var head = document.getElementsByTagName('head')[0],
+// link = document.createElement('link');
+// link.type = 'text/css';
+// link.rel = 'stylesheet';
+// link.href = 'https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css';
+// head.appendChild(link);
 
 // Main Ads Start
 $(function(){
@@ -81,6 +81,13 @@ if (adBanners.length!=bannerLinks.length)
    alert("Banner and link Mismatch!");
    return;
 };
+        
+document.writeln("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
+document.write( '<div id=\"w\">\n' );
+document.write( '<div id=\"topad\">\n' );
+document.write( '<a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n' );
+document.write( '</div>\n' );
+document.write( '</div>' );
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
