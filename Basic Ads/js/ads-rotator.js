@@ -88,6 +88,7 @@ document.write( '<div id=\"topad\">\n' );
 document.write( '<a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n' );
 document.write( '</div>\n' );
 document.write( '</div>' );
+document.close()
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
