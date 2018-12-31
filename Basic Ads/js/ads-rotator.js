@@ -82,7 +82,7 @@ if (adBanners.length!=bannerLinks.length)
    return;
 };
         
-document.writeln("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
+document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
 document.write( '<div id=\"w\">\n' );
 document.write( '<div id=\"topad\">\n' );
 document.write( '<a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n' );
