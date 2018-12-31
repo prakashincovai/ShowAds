@@ -90,9 +90,9 @@ if (adBanners.length!=bannerLinks.length)
 //document.write( '</div>' );
 //document.close()
         
-$(document.body).append("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
-$(document.body).append( '<div id=\"w\">\n <div id=\"topad\">\n <a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n </div>');
-$(document.body).append( '</div>\n' );
+//$(document.body).append("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
+//$(document.body).append( '<div id=\"w\">\n <div id=\"topad\">\n <a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n </div>');
+//$(document.body).append( '</div>\n' );
    
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
@@ -104,6 +104,8 @@ $(document.body).append( '</div>\n' );
   // update new img src and link HREF value
   $(topAdBanner).attr('src',newBannerImg);
   $('#topad > a').attr('href',newBannerLink);
+        
+document.getElementById("UAds").innerHTML = "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\"> \n <div id=\"w\">\n <div id=\"topad\">\n <a href="+newBannerLink+"><img src="+newBannerImg+ " alt=\"\" class=\"res\"/></a>\n </div> </div>\n";
 })
 // Main Ads End
 
