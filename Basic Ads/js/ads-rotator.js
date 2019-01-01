@@ -155,7 +155,7 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
-         "Amazon 01012019_260x214.png",
+         "Amazon01012019_260x214.png",
         "go29122018_728x214.JPG",
         "go291220182_728x214.jpg",
         "go281220183_728x214.gif",
