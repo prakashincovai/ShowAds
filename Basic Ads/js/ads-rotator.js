@@ -156,7 +156,6 @@ function AllBannerLinks() {
 function ResponsiveBannerNames() {
    adBanners = [
         "Echo_01012019_728x182.jpg",
-        "Amazon01012019_260x214.png",
         "go29122018_728x214.JPG",
         "go291220182_728x214.jpg",
         "go281220183_728x214.gif",
@@ -188,7 +187,6 @@ function ResponsiveBannerNames() {
 function ResponsiveBannerLinks() {
    bannerLinks = [
         "https://clnk.in/g7xM",
-        "https://clnk.in/g7xm",
         "https://linksredirect.com/?pub_id=25310CL22798&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Fhotels%2F",
         "https://linksredirect.com/?pub_id=25310CL22798&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Foffers%2Fgo-global%2F",
         "https://linksredirect.com/?pub_id=25310CL22798&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Foffers%2Fgo-stays-on-sale%2F",
