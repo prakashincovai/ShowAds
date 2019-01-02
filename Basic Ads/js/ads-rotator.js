@@ -155,6 +155,8 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
+        "Axa02012019_728x175.jpg",
+        "ninecolor_728x195.jpg",
         "Echo_01012019_728x182.jpg",
         "go29122018_728x214.JPG",
         "go291220182_728x214.jpg",
@@ -186,6 +188,8 @@ function ResponsiveBannerNames() {
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
+        "https://clnk.in/g71N",
+        "https://clnk.in/g71P",
         "https://clnk.in/g7xM",
         "https://linksredirect.com/?pub_id=25310CL22798&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Fhotels%2F",
         "https://linksredirect.com/?pub_id=25310CL22798&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Foffers%2Fgo-global%2F",
