@@ -163,6 +163,8 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
+        "jabong04012019_728x145.jpg",
+        "Snapdeal04012019_728x149.jpg",
         "Axa02012019_728x175.jpg",
         "ninecolor_728x195.jpg",
         "Echo_01012019_728x182.jpg",
@@ -196,6 +198,8 @@ function ResponsiveBannerNames() {
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
+        "https://clnk.in/g8RQ",
+        "https://clnk.in/g8RT",
         "https://clnk.in/g71N",
         "https://clnk.in/g71P",
         "https://clnk.in/g7xM",
