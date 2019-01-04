@@ -67,8 +67,19 @@ if (ads_size=='Any')
 }
 if (ads_size=='Responsive') 
 {
+  var Rnd =Math.floor(Math.random() * ((2-1) - 0 + 1)) + 0;
+if (Rnd==0)
+{
   ResponsiveBannerNames();
   ResponsiveBannerLinks();
+}
+else
+{
+  BannerNames300x300();
+  BannerLinks300x300();
+}
+
+
 }
 else
 {
@@ -81,43 +92,84 @@ if (adBanners.length!=bannerLinks.length)
    alert("Banner and link Mismatch!");
    return;
 };
-        
-//document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
-//document.write( '<div id=\"w\">\n' );
-//document.write( '<div id=\"topad\">\n' );
-//document.write( '<a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n' );
-//document.write( '</div>\n' );
-//document.write( '</div>' );
-//document.close()
-        
-//$(document.body).append("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic Ads/css/Res.css\">");
-//$(document.body).append( '<div id=\"w\">\n <div id=\"topad\">\n <a href=\"\"><img src=\"\" alt=\"\" class=\"res\"/></a>\n </div>');
-//$(document.body).append( '</div>\n' );
    
+
+var strVar="";
+if (Rnd==0)
+{
   var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images/";
   var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
-  // var topAdBanner = $('#topad > a > img');
+
   
   var newBannerImg  = imgPrefix + adBanners[randNum];
   var newBannerLink = bannerLinks[randNum];
-  
-  // update new img src and link HREF value
- // $(topAdBanner).attr('src',newBannerImg);
- // $('#topad > a').attr('href',newBannerLink);
-        
-//document.getElementById("UAds").innerHTML = "<link type=\"text/css\" rel=\"stylesheet\" \
-//' href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Res.css\"> \
-//<div id=\"w\">\n <div id=\"topad\">\n <a href="+newBannerLink+">\n \
-//<img src="+newBannerImg+ " alt=\"\" class=\"res\"/></a>\n </div> </div>\n";
-       
- var strVar="";
+
+ // 728x214 728x90 banners 
 strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
 strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Res.css\">";
 strVar += "<div id=\"w\">\n <div id=\"topad\">\n <a href="+newBannerLink+">";
 strVar += "<img src="+newBannerImg+ " alt=\"\" class=\"res\"/></a>\n </div> </div>";
-     
- document.getElementById("UAds").innerHTML = strVar;       
-        
+}
+else
+{ // 300x300 banners
+
+  var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images300x300/";
+  var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
+  
+  var newBannerImg  = imgPrefix + adBanners[randNum];
+  var newBannerLink = bannerLinks[randNum];
+//
+  var imgPrefix2   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images300x300/";
+  var randNum2     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
+  
+  var newBannerImg2  = imgPrefix2 + adBanners[randNum2];
+  var newBannerLink2 = bannerLinks[randNum2];
+
+  var imgPrefix3   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images300x300/";
+  var randNum3     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
+  
+  var newBannerImg3  = imgPrefix3 + adBanners[randNum3];
+  var newBannerLink3 = bannerLinks[randNum3];
+
+
+strVar += "<div style=\"height: 300px;\">";
+strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
+strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Res.css\">";
+strVar += "        <table cellpadding=\"0\" border=\"1\" role=\"presentation\">";
+strVar += "            <tr>";
+strVar += "                <td>";
+strVar += "                    <table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"1\" align=\"center\">";
+strVar += "                        <tbody> ";
+strVar += "                            <tr>";
+strVar += "                                <td width=\"33.33%\">";
+strVar += "                                    <a href="+newBannerLink+" style=\"display:block;border:none\" target=\"_blank\" data-saferedirecturl=\"\">";
+strVar += "                                    <img alt=\"xxx\" src="+newBannerImg+ "\n \"";
+strVar += "			            style=\"background-color:#f6f2e9;border:none;color:#818181;display:";
+strVar += "			            block;font-size:9px;max-width:100%\" width=\"100%\"><\/a>";
+strVar += "                                <\/td>";
+strVar += "                                <td width=\"33.33%\">";
+strVar += "                                    <a href="+newBannerLink2+" style=\"display:block;border:none\" target=\"_blank\" data-saferedirecturl=\"\">";
+strVar += "                                    <img alt=\"xxx\" src="+newBannerImg2+ " \n \"";
+strVar += "			            style=\"background-color:#f6f2e9;border:none;color:#818181;display:";
+strVar += "			            block;font-size:9px;max-width:100%\" width=\"100%\"><\/a>";
+strVar += "                                <\/td>";
+strVar += "                                <td width=\"33.33%\">";
+strVar += "                                    <a href="+newBannerLink3+" style=\"display:block;border:none\" target=\"_blank\" data-saferedirecturl=\"\">";
+strVar += "                                    <img alt=\"xxx\" src="+newBannerImg3+ " \n \"";
+strVar += "			            style=\"background-color:#f6f2e9;border:none;color:#818181;display:";
+strVar += "			            block;font-size:9px;max-width:100%\" width=\"100%\"><\/a>";
+strVar += "                                <\/td>";
+strVar += "                            <\/tr>";
+strVar += "                        <\/tbody>";
+strVar += "                    <\/table>";
+strVar += "                <\/td>";
+strVar += "            <\/tr>";
+strVar += "        <\/table>";
+strVar += "    <\/div>";
+}
+document.getElementById("UAds").innerHTML = strVar;
+
+
 })
 // Main Ads End
 
@@ -230,4 +282,24 @@ function ResponsiveBannerLinks() {
        "https://clnk.in/g1xR"
   ];
 }
+
+
+// Size 300x300 Responsive
+function BannerNames300x300() {
+   adBanners = [
+       "f04012019_300x300.jpeg",
+       "f104012019_300x300.jpeg",
+       "f304012019_300x300.jpeg"
+  ];
+}
+
+function BannerLinks300x300() {
+   bannerLinks = [
+       "http://fkrt.it/LMbXInuuuN",
+       "http://fkrt.it/2HQzDKNNNN",
+       "http://fkrt.it/2HWuCKNNNN"
+  ];
+}
+
+
 
