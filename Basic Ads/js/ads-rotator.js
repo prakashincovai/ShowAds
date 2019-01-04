@@ -105,10 +105,18 @@ if (adBanners.length!=bannerLinks.length)
  // $(topAdBanner).attr('src',newBannerImg);
  // $('#topad > a').attr('href',newBannerLink);
         
-document.getElementById("UAds").innerHTML = "<link type=\"text/css\" rel=\"stylesheet\" \
-' href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Res.css\"> \
-<div id=\"w\">\n <div id=\"topad\">\n <a href="+newBannerLink+">\n \
-<img src="+newBannerImg+ " alt=\"\" class=\"res\"/></a>\n </div> </div>\n";
+//document.getElementById("UAds").innerHTML = "<link type=\"text/css\" rel=\"stylesheet\" \
+//' href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Res.css\"> \
+//<div id=\"w\">\n <div id=\"topad\">\n <a href="+newBannerLink+">\n \
+//<img src="+newBannerImg+ " alt=\"\" class=\"res\"/></a>\n </div> </div>\n";
+       
+ var strVar="";
+strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
+strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Res.css\">";
+strVar += "<div id=\"w\">\n <div id=\"topad\">\n <a href="+newBannerLink+">";
+strVar += "<img src="+newBannerImg+ " alt=\"\" class=\"res\"/></a>\n </div> </div>";
+     
+ document.getElementById("UAds").innerHTML = strVar;       
         
 })
 // Main Ads End
