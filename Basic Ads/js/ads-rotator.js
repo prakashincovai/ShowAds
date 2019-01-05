@@ -138,7 +138,7 @@ else
   var newBannerLink4 = bannerLinks[randNum4];
 
 
-strVar += "<div style=\"height: 300px;\">";
+strVar += "<div style=\"height: 250px;\">";
 strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
 strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Res.css\">";
 strVar += "        <table cellpadding=\"0\" border=\"1\" role=\"presentation\">";
