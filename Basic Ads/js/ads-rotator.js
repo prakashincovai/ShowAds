@@ -130,6 +130,12 @@ else
   
   var newBannerImg3  = imgPrefix3 + adBanners[randNum3];
   var newBannerLink3 = bannerLinks[randNum3];
+        
+  var imgPrefix4   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images300x300/";
+  var randNum4     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
+  
+  var newBannerImg4  = imgPrefix4 + adBanners[randNum4];
+  var newBannerLink4 = bannerLinks[randNum4];
 
 
 strVar += "<div style=\"height: 300px;\">";
@@ -141,19 +147,25 @@ strVar += "                <td>";
 strVar += "                    <table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"1\" align=\"center\">";
 strVar += "                        <tbody> ";
 strVar += "                            <tr>";
-strVar += "                                <td width=\"33.33%\">";
+strVar += "                                <td width=\"25%\">";
 strVar += "                                    <a href="+newBannerLink+" style=\"display:block;border:none\" target=\"_blank\" data-saferedirecturl=\"\">";
 strVar += "                                    <img alt=\"xxx\" src="+newBannerImg+ "\n \"";
 strVar += "			            style=\"background-color:#f6f2e9;border:none;color:#818181;display:";
 strVar += "			            block;font-size:9px;max-width:100%\" width=\"100%\"><\/a>";
 strVar += "                                <\/td>";
-strVar += "                                <td width=\"33.33%\">";
+strVar += "                                <td width=\"25%\">";
 strVar += "                                    <a href="+newBannerLink2+" style=\"display:block;border:none\" target=\"_blank\" data-saferedirecturl=\"\">";
 strVar += "                                    <img alt=\"xxx\" src="+newBannerImg2+ " \n \"";
 strVar += "			            style=\"background-color:#f6f2e9;border:none;color:#818181;display:";
 strVar += "			            block;font-size:9px;max-width:100%\" width=\"100%\"><\/a>";
 strVar += "                                <\/td>";
-strVar += "                                <td width=\"33.33%\">";
+strVar += "                                <td width=\"25%\">";
+strVar += "                                    <a href="+newBannerLink3+" style=\"display:block;border:none\" target=\"_blank\" data-saferedirecturl=\"\">";
+strVar += "                                    <img alt=\"xxx\" src="+newBannerImg3+ " \n \"";
+strVar += "			            style=\"background-color:#f6f2e9;border:none;color:#818181;display:";
+strVar += "			            block;font-size:9px;max-width:100%\" width=\"100%\"><\/a>";
+strVar += "                                <\/td>";
+strVar += "                                <td width=\"25%\">";
 strVar += "                                    <a href="+newBannerLink3+" style=\"display:block;border:none\" target=\"_blank\" data-saferedirecturl=\"\">";
 strVar += "                                    <img alt=\"xxx\" src="+newBannerImg3+ " \n \"";
 strVar += "			            style=\"background-color:#f6f2e9;border:none;color:#818181;display:";
