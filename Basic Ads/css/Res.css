@@ -4,6 +4,8 @@
   height: auto;
 }
 
- td:hover {
-          background-color: #ffff99;
-        }
+
+td:hover {
+          border: 1px solid red;
+ 	  padding: 0px;
+}
