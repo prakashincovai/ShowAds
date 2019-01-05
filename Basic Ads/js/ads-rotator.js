@@ -215,8 +215,8 @@ function AllBannerLinks() {
 
 function ResponsiveBannerNames() {
    adBanners = [
-           "Ama05012019_728x214.jpg",
-           "hp05012019_728x214.jpg",
+        "Ama05012019_728x214.jpg",
+        "hp05012019_728x214.jpg",
         "jabong04012019_728x145.jpg",
         "Snapdeal04012019_728x149.jpg",
         "Axa02012019_728x175.jpg",
@@ -252,8 +252,8 @@ function ResponsiveBannerNames() {
 
 function ResponsiveBannerLinks() {
    bannerLinks = [
-           "https://clnk.in/g9yt",
-           "https://clnk.in/g9yu",
+        "https://clnk.in/g9yt",
+        "https://clnk.in/g9yu",
         "https://clnk.in/g8RQ",
         "https://clnk.in/g8RT",
         "https://clnk.in/g71N",
@@ -291,6 +291,9 @@ function ResponsiveBannerLinks() {
 // Size 300x300 Responsive
 function BannerNames300x300() {
    adBanners = [
+       "cam05012019_300x300.jpeg",
+       "shoo05012019_300x300.jpeg",
+       "cam05012019_300x300.png",
        "Lim05012019_300x300.jpeg",
        "Pay05012019_300x300.jpg",
        "ja05012019_300x300.jpg",
@@ -302,6 +305,9 @@ function BannerNames300x300() {
 
 function BannerLinks300x300() {
    bannerLinks = [
+       "http://fkrt.it/DqN3znuuuN",
+       "http://fkrt.it/DqEFinuuuN",
+       "http://fkrt.it/DvQMSnuuuN",
        "https://clnk.in/g9sQ",
        "https://clnk.in/g9sR",
        "https://clnk.in/g9sS",
