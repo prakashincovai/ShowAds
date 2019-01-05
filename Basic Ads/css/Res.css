@@ -3,3 +3,7 @@
   max-width: 728px;
   height: auto;
 }
+
+ td:hover {
+          background-color: #ffff99;
+        }
