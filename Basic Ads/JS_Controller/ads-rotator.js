@@ -202,7 +202,7 @@ else if (ads_size=='ResponsiveSidebar')
 
 	 // 728x214 728x90 banners 
 	strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
-	strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Ressidebar.css\">";
+	strVar += "https://rawcdn.githack.com/prakashincovai/ShowAds/29c5ec7142781d91e0c975daea6a7d096c1e64f2/Basic Ads/css/Ressidebar.css">";
 	strVar += "<div id=\"w\">\n <div id=\"topad\">\n <a href="+newBannerLink+">";
 	strVar += "<img src="+newBannerImg+ " alt=\"\" class=\"Ressidebar\"/></a>\n </div> </div>";
 	}
@@ -235,7 +235,7 @@ else if (ads_size=='ResponsiveSidebar')
 
         strVar += "<div style=\"height: 250px;\" \"width: 250px;\">";
         strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
-        strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Ressidebar.css\">";
+        strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/29c5ec7142781d91e0c975daea6a7d096c1e64f2/Basic Ads/css/Ressidebar.css\">";
         strVar += "        <table width=\"11%\" cellpadding=\"0\" border=\"1\" role=\"presentation\">";
         strVar += "            <tr>";
         strVar += "                <td>";
