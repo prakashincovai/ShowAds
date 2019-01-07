@@ -194,7 +194,7 @@ else if (ads_size=='ResponsiveSidebar')
 {
 	if (Rnd==0)
 	{
-          "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/imagesSidebar/";
+          "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/imagesSidebarFull200x600/";
 	  var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
   
 	  var newBannerImg  = imgPrefix + adBanners[randNum];
@@ -209,25 +209,25 @@ else if (ads_size=='ResponsiveSidebar')
 	else
 	{ // 300x300 banners
 
-        var imgPrefix   = "images300x300/";
+        var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images300x300/";
         var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
   
           var newBannerImg  = imgPrefix + adBanners[randNum];
         var newBannerLink = bannerLinks[randNum];
         //
-        var imgPrefix2   = "images300x300/";
+        var imgPrefix2   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images300x300/";
         var randNum2     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
   
         var newBannerImg2  = imgPrefix2 + adBanners[randNum2];
         var newBannerLink2 = bannerLinks[randNum2];
 
-        var imgPrefix3   = "images300x300/";
+        var imgPrefix3   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images300x300/";
         var randNum3     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
   
         var newBannerImg3  = imgPrefix3 + adBanners[randNum3];
         var newBannerLink3 = bannerLinks[randNum3];
 
-        var imgPrefix4   = "images300x300/";
+        var imgPrefix4   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images300x300/";
         var randNum4     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
   
         var newBannerImg4  = imgPrefix4 + adBanners[randNum4];
@@ -235,7 +235,7 @@ else if (ads_size=='ResponsiveSidebar')
 
         strVar += "<div style=\"height: 250px;\" \"width: 250px;\">";
         strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
-        strVar += "href=\"css/Ressidebar.css\">";
+        strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Ressidebar.css\">";
         strVar += "        <table width=\"11%\" cellpadding=\"0\" border=\"1\" role=\"presentation\">";
         strVar += "            <tr>";
         strVar += "                <td>";
