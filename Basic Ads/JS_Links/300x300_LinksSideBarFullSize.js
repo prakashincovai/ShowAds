@@ -7,6 +7,6 @@ function ResponsiveBannerNamesSideBarFull() {
 
 function ResponsiveBannerLinksSideBarFull() {
    bannerLinks = [
-       "https://clnk.in/g1xR"
+       "https://clnk.in/gXeG"
   ];
 }
