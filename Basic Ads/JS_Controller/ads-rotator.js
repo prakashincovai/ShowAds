@@ -3,13 +3,21 @@ var bannerLinks;
 var Cus_analyticsId;
 var UniqueAds;
 var Uid;
+var AdsRestriction;
+var AdsRestriction2;
 
 // Muliple Ads not allowed restriction Start
 if (isNaN(Uid)==true)
 {
 Uid=0;
+AdsRestriction=	ads_size;
 }
 Uid = Uid +  UniqueAds;
+
+if (Uid==2)
+{
+AdsRestriction2=ads_size;
+}
 // Muliple Ads not allowed restriction End
 
 // Individual analytics
@@ -50,7 +58,8 @@ window.dataLayer = window.dataLayer || [];
 // Main Ads Start
 $(function(){
         
-if (Uid!==1)
+// Muliple Ads not allowed restriction Start
+if (Uid!==1 && AdsRestriction=AdsRestriction2)
 {
 return;
 };
@@ -59,7 +68,12 @@ if (isNaN(Uid)==true)
 {
 return;
 };
-        
+	
+if (isNaN(AdsRestriction)==true || isNaN(AdsRestriction2)==true)
+{
+return;
+};
+// Muliple Ads not allowed restriction End
 
 if (ads_size=='Responsive') 
 {
