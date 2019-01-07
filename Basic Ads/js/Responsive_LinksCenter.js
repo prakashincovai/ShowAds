@@ -1,4 +1,4 @@
-//728x214 728x90
+//728x214 728x90 Center
 function ResponsiveBannerNames() {
    adBanners = [
         "Ama05012019_728x214.jpg",
