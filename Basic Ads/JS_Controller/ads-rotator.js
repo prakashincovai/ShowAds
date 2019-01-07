@@ -194,7 +194,7 @@ else if (ads_size=='ResponsiveSidebar')
 {
 	if (Rnd==0)
 	{
-          "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/imagesSidebarFull200x600/";
+          var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/imagesSidebarFull200x600/";
 	  var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
   
 	  var newBannerImg  = imgPrefix + adBanners[randNum];
