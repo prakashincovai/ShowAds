@@ -59,7 +59,7 @@ window.dataLayer = window.dataLayer || [];
 $(function(){
         
 // Muliple Ads not allowed restriction Start
-if (Uid!==1 && AdsRestriction=AdsRestriction2)
+if (Uid!==1 && AdsRestriction==AdsRestriction2)
 {
 return;
 };
