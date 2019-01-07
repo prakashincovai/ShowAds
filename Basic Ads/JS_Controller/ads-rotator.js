@@ -70,13 +70,13 @@ if (ads_size=='Responsive')
   var Rnd =Math.floor(Math.random() * ((2-1) - 0 + 1)) + 0;
 if (Rnd==0)
 {
-  ResponsiveBannerNames();
-  ResponsiveBannerLinks();
+  ResponsiveBannerNamesCenterFull();
+  ResponsiveBannerLinksCenterFull();
 }
 else
 {
-  BannerNames300x300();
-  BannerLinks300x300();
+  BannerNames300x300Full();
+  BannerLinks300x300Full();
 }
 
 
