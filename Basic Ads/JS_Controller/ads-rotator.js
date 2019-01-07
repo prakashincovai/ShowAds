@@ -69,7 +69,7 @@ if (isNaN(Uid)==true)
 return;
 };
 	
-if (isNaN(AdsRestriction)==true && isNaN(AdsRestriction2)==true)
+if (AdsRestriction=="" && AdsRestriction2=="")
 {
 return;
 };
