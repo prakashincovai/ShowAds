@@ -194,7 +194,7 @@ else if (ads_size=='ResponsiveSidebar')
 {
 	if (Rnd==0)
 	{
-          var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/imagesSidebarFull200x600/";
+          var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/imagesSideBarFull200x600/";
 	  var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
   
 	  var newBannerImg  = imgPrefix + adBanners[randNum];
@@ -202,7 +202,7 @@ else if (ads_size=='ResponsiveSidebar')
 
 	 // 728x214 728x90 banners 
 	strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
-	strVar += "https://rawcdn.githack.com/prakashincovai/ShowAds/29c5ec7142781d91e0c975daea6a7d096c1e64f2/Basic Ads/css/Ressidebar.css\">";
+	strVar += "https://rawcdn.githack.com/prakashincovai/ShowAds/29c5ec7142781d91e0c975daea6a7d096c1e64f2/Basic%20Ads/css/Ressidebar.css\">";
 	strVar += "<div id=\"w\">\n <div id=\"topad\">\n <a href="+newBannerLink+">";
 	strVar += "<img src="+newBannerImg+ " alt=\"\" class=\"Ressidebar\"/></a>\n </div> </div>";
 	}
@@ -235,7 +235,7 @@ else if (ads_size=='ResponsiveSidebar')
 
         strVar += "<div style=\"height: 300px;\" \"width: 250px;\">";
         strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
-        strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/29c5ec7142781d91e0c975daea6a7d096c1e64f2/Basic Ads/css/Ressidebar.css\">";
+        strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/29c5ec7142781d91e0c975daea6a7d096c1e64f2/Basic%20Ads/css/Ressidebar.css\">";
         strVar += "        <table width=\"11%\" cellpadding=\"0\" border=\"1\" role=\"presentation\">";
         strVar += "            <tr>";
         strVar += "                <td>";
