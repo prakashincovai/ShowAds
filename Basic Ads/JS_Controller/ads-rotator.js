@@ -75,7 +75,7 @@ return;
 //};
 // Muliple Ads not allowed restriction End
 
-if (ads_size=='Responsive') 
+if (AdsRestriction=='Responsive' || AdsRestriction2=='Responsive') 
 {
         var Rnd =Math.floor(Math.random() * ((2-1) - 0 + 1)) + 0;
         if (Rnd==0)
@@ -91,7 +91,7 @@ if (ads_size=='Responsive')
 
 
 }
-else if(ads_size=='ResponsiveSidebar')
+else if(AdsRestriction=='ResponsiveSidebar' || AdsRestriction2=='ResponsiveSidebar')
 {
 	var Rnd =Math.floor(Math.random() * ((2-1) - 0 + 1)) + 0;
 	if (Rnd==0)
@@ -119,7 +119,7 @@ if (adBanners.length!=bannerLinks.length)
    
 
 var strVar="";
-if (ads_size=='Responsive') 
+if (AdsRestriction=='Responsive' || AdsRestriction2=='Responsive') 
 {
         if (Rnd==0)
         {
@@ -205,7 +205,7 @@ if (ads_size=='Responsive')
         }
 	document.getElementById("UAds").innerHTML = strVar;
 }
-else if (ads_size=='ResponsiveSidebar')
+else if (AdsRestriction=='ResponsiveSidebar' || AdsRestriction2=='ResponsiveSidebar')
 {
 	if (Rnd==0)
 	{
