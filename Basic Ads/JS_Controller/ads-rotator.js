@@ -10,13 +10,27 @@ var AdsRestriction2;
 if (isNaN(Uid)==true)
 {
 Uid=0;
-AdsRestriction=	ads_size;
+	if (ads_size=='Responsive')
+	{
+	AdsRestriction=	ads_size;
+	}
+	else if (ads_size=='ResponsiveSidebar')
+ 	{
+	AdsRestriction2=ads_size;
+	}
 }
 Uid = Uid +  UniqueAds;
 
 if (Uid==2)
 {
-AdsRestriction2=ads_size;
+       if (ads_size=='Responsive')
+	{
+	AdsRestriction=	ads_size;
+	}
+	else if (ads_size=='ResponsiveSidebar')
+ 	{
+	AdsRestriction2=ads_size;
+	}
 }
 // Muliple Ads not allowed restriction End
 
@@ -75,7 +89,7 @@ return;
 //};
 // Muliple Ads not allowed restriction End
 
-if (AdsRestriction=='Responsive' || AdsRestriction2=='Responsive') 
+if (AdsRestriction=='Responsive') 
 {
         var Rnd =Math.floor(Math.random() * ((2-1) - 0 + 1)) + 0;
         if (Rnd==0)
@@ -91,7 +105,7 @@ if (AdsRestriction=='Responsive' || AdsRestriction2=='Responsive')
 
 
 }
-else if(AdsRestriction=='ResponsiveSidebar' || AdsRestriction2=='ResponsiveSidebar')
+else if(AdsRestriction2=='ResponsiveSidebar')
 {
 	var Rnd =Math.floor(Math.random() * ((2-1) - 0 + 1)) + 0;
 	if (Rnd==0)
@@ -119,7 +133,7 @@ if (adBanners.length!=bannerLinks.length)
    
 
 var strVar="";
-if (AdsRestriction=='Responsive' || AdsRestriction2=='Responsive') 
+if (AdsRestriction=='Responsive') 
 {
         if (Rnd==0)
         {
@@ -205,7 +219,7 @@ if (AdsRestriction=='Responsive' || AdsRestriction2=='Responsive')
         }
 	document.getElementById("UAds").innerHTML = strVar;
 }
-else if (AdsRestriction=='ResponsiveSidebar' || AdsRestriction2=='ResponsiveSidebar')
+else if (AdsRestriction2=='ResponsiveSidebar')
 {
 	if (Rnd==0)
 	{
