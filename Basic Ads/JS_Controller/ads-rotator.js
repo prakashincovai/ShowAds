@@ -222,7 +222,7 @@ if (AdsRestriction=='Responsive' && Js_one!='1')
 	document.getElementById("UAds").innerHTML = strVar;
 	Js_one=1;
 }
-else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2;)
+else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
 {
 	if (Rnd==0)
 	{
