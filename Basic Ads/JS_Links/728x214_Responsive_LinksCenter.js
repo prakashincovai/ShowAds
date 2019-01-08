@@ -1,6 +1,7 @@
 //728x214 728x90 Center Full banner needed
 function ResponsiveBannerNamesCenterFull() {
    adBanners = [
+        "flim08012019_214x184.jpg",
         "Ama05012019_728x214.jpg",
         "hp05012019_728x214.jpg",
         "jabong04012019_728x145.jpg",
@@ -38,6 +39,7 @@ function ResponsiveBannerNamesCenterFull() {
 
 function ResponsiveBannerLinksCenterFull() {
    bannerLinks = [
+        "https://clnk.in/ha4Y",
         "https://clnk.in/g9yt",
         "https://clnk.in/g9yu",
         "https://clnk.in/g8RQ",
