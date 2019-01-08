@@ -69,10 +69,10 @@ if (isNaN(Uid)==true)
 return;
 };
 	
-if (AdsRestriction=="" && AdsRestriction2=="")
-{
-return;
-};
+//if (AdsRestriction=="" && AdsRestriction2=="")
+//{
+//return;
+//};
 // Muliple Ads not allowed restriction End
 
 if (ads_size=='Responsive') 
