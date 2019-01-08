@@ -203,6 +203,7 @@ if (ads_size=='Responsive')
         strVar += "        <\/table>";
         strVar += "    <\/div>";
         }
+	document.getElementById("UAds").innerHTML = strVar;
 }
 else if (ads_size=='ResponsiveSidebar')
 {
@@ -294,9 +295,9 @@ else if (ads_size=='ResponsiveSidebar')
         strVar += "        <\/table>";
         strVar += "    <\/div>";
 	}
+	document.getElementById("UAdsSideBar").innerHTML = strVar;
 }
 
-document.getElementById("UAds").innerHTML = strVar;
 
 
 })
