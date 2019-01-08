@@ -5,6 +5,8 @@ var UniqueAds;
 var Uid;
 var AdsRestriction;
 var AdsRestriction2;
+var Js_one;
+var Js_two;
 
 // Muliple Ads not allowed restriction Start
 if (isNaN(Uid)==true)
@@ -89,9 +91,9 @@ return;
 //};
 // Muliple Ads not allowed restriction End
 
-if (AdsRestriction=='Responsive') 
+if (AdsRestriction=='Responsive' && Js_one!='1') 
 {
-        var Rnd =Math.floor(Math.random() * ((2-1) - 0 + 1)) + 0;
+	var Rnd =Math.floor(Math.random() * ((2-1) - 0 + 1)) + 0;
         if (Rnd==0)
         {
         ResponsiveBannerNamesCenterFull();
@@ -105,7 +107,7 @@ if (AdsRestriction=='Responsive')
 
 
 }
-else if(AdsRestriction2=='ResponsiveSidebar')
+else if(AdsRestriction2=='ResponsiveSidebar' && Js_two!='2')
 {
 	var Rnd =Math.floor(Math.random() * ((2-1) - 0 + 1)) + 0;
 	if (Rnd==0)
@@ -133,7 +135,7 @@ if (adBanners.length!=bannerLinks.length)
    
 
 var strVar="";
-if (AdsRestriction=='Responsive') 
+if (AdsRestriction=='Responsive' && Js_one!='1') 
 {
         if (Rnd==0)
         {
@@ -218,8 +220,9 @@ if (AdsRestriction=='Responsive')
         strVar += "    <\/div>";
         }
 	document.getElementById("UAds").innerHTML = strVar;
+	Js_one=1;
 }
-else if (AdsRestriction2=='ResponsiveSidebar')
+else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2;)
 {
 	if (Rnd==0)
 	{
@@ -310,6 +313,7 @@ else if (AdsRestriction2=='ResponsiveSidebar')
         strVar += "    <\/div>";
 	}
 	document.getElementById("UAdsSideBar").innerHTML = strVar;
+	Js_two=2;
 }
 
 
