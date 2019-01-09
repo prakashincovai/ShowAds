@@ -1,6 +1,7 @@
 // Size 300x300 Responsive
 function BannerNames300x300Full() {
    adBanners = [
+       "Lime09012019_300x300.jpg",
        "cam05012019_300x300.jpeg",
        "shoo05012019_300x300.jpeg",
        "cam05012019_300x300.png",
@@ -15,6 +16,7 @@ function BannerNames300x300Full() {
 
 function BannerLinks300x300Full() {
    bannerLinks = [
+       "https://clnk.in/hbIX",
        "http://fkrt.it/DqN3znuuuN",
        "http://fkrt.it/DqEFinuuuN",
        "http://fkrt.it/DvQMSnuuuN",
