@@ -1,6 +1,10 @@
 // Size 300x300 Responsive
 function BannerNames300x300Full() {
    adBanners = [
+       "vu10012019_300x193.jpeg",
+       "sony10012019_300x191.jpeg",
+       "sony10012019_300x207.jpeg",
+       "sony10012019_300x206.jpeg",
        "f09012019_300x165.jpeg",
        "f09012019_300x221.jpeg",
        "f09012019_300x191.jpeg",
@@ -19,6 +23,10 @@ function BannerNames300x300Full() {
 
 function BannerLinks300x300Full() {
    bannerLinks = [
+       "http://fkrt.it/iQUkAKNNNN",
+       "http://fkrt.it/Z45!PnuuuN",
+       "http://fkrt.it/Z45!PnuuuN",
+       "http://fkrt.it/Z4iVznuuuN",
        "http://fkrt.it/yRg3CKNNNN",
        "http://fkrt.it/A4Vg9nuuuN",
        "http://fkrt.it/yR4oHKNNNN",
