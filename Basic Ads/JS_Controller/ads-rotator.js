@@ -266,11 +266,13 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
         var newBannerLink4 = bannerLinks[randNum4];
 
         strVar += "<div class=\"Ressidebar\">";
+	strVar += "<div align=\"right\">";
 	strVar += "	<a href=\"https://www.demo.com\" target=\"_blank\">";
-	strVar += "<font face = \"Quicksand\" >Ads by UAds</font>";
+	strVar += "	<font face = \"Quicksand\" >Ads by UADS</font>";
 	//strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
-	//strVar += "     class=\"Res\" title=\"Testing\"/>";
+	//strVar += "    class=\"Res\" title=\"Testing\"/>";
 	strVar += "	</a>";
+	strVar += "</div>";
         strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
         strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/29c5ec7142781d91e0c975daea6a7d096c1e64f2/Basic%20Ads/css/Ressidebar.css\">";
         strVar += "        <table cellpadding=\"0\" border=\"1\" role=\"presentation\">";
