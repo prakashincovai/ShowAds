@@ -266,6 +266,10 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
         var newBannerLink4 = bannerLinks[randNum4];
 
         strVar += "<div class=\"Ressidebar\">";
+	strVar += "	<a href=\"https://www.demo.com\" target=\"_blank\">";
+	strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
+	strVar += "     class=\"Res\" title=\"Testing\"/>";
+	strVar += "	</a>";
         strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
         strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/29c5ec7142781d91e0c975daea6a7d096c1e64f2/Basic%20Ads/css/Ressidebar.css\">";
         strVar += "        <table cellpadding=\"0\" border=\"1\" role=\"presentation\">";
@@ -309,13 +313,7 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
         strVar += "                    <\/table>";
         strVar += "                <\/td>";
         strVar += "            <\/tr>";
-        strVar += "        <\/table>";
-     	strVar += "  <span style=\"position: absolute; visibility: visible; left: 0px; top: 0px; opacity: 100;\">";
-	strVar += "	<a href=\"https://www.demo.com\" target=\"_blank\">";
-	strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
-	strVar += "        class=\"Ressidebar\" title=\"Testing\"/>";
-	strVar += "	</a>";
-	strVar += "  </span>";
+        strVar += "        <\/table>";	
         strVar += "    <\/div>";
 	}
 	document.getElementById("UAdsSideBar").innerHTML = strVar;
