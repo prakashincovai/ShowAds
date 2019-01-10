@@ -1,6 +1,8 @@
 // Size 300x300 Responsive
 function BannerNames300x300Full() {
    adBanners = [
+       "cy10012019_300x136.jpg",
+       "light_300x136.jpg",
        "nnnow10012019_200x258.jpg",
        "vu10012019_300x193.jpeg",
        "sony10012019_300x191.jpeg",
@@ -24,6 +26,8 @@ function BannerNames300x300Full() {
 
 function BannerLinks300x300Full() {
    bannerLinks = [
+       "https://clnk.in/hcip",
+       "https://clnk.in/hcir",
        "https://clnk.in/hcgc",
        "http://fkrt.it/iQUkAKNNNN",
        "http://fkrt.it/Z45!PnuuuN",
