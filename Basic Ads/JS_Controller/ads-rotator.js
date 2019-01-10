@@ -310,12 +310,12 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
         strVar += "                <\/td>";
         strVar += "            <\/tr>";
         strVar += "        <\/table>";
-     	strVar += " <span style=\"position: absolute; visibility: visible; left: 0px; top: 0px; opacity: 100;\">";
+     	strVar += "  <span style=\"position: absolute; visibility: visible; left: 0px; top: 0px; opacity: 100;\">";
 	strVar += "	<a href=\"https://www.demo.com\" target=\"_blank\">";
 	strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
-	strVar += "        class=\"res\" title=\"Testing\"/>";
+	strVar += "        class=\"Ressidebar\" title=\"Testing\"/>";
 	strVar += "	</a>";
-	strVar += " </span>";
+	strVar += "  </span>";
         strVar += "    <\/div>";
 	}
 	document.getElementById("UAdsSideBar").innerHTML = strVar;
