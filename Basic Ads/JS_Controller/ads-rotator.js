@@ -267,7 +267,7 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
 
         strVar += "<div class=\"Ressidebar\">";
 	strVar += "	<a href=\"https://www.demo.com\" target=\"_blank\">";
-	strVar += "Ads by UAds"
+	strVar += "<font face = \"Quicksand\" >Ads by UAds</font>";
 	//strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
 	//strVar += "     class=\"Res\" title=\"Testing\"/>";
 	strVar += "	</a>";
