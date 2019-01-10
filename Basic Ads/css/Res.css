@@ -6,6 +6,6 @@
 
 
 td:hover {
-          border: 1px solid red;
- 	  padding: 0px;
+          border: 1px solid red !important;
+ 	  padding: 0px !important;
 }
