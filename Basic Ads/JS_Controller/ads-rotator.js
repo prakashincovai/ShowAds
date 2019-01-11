@@ -243,7 +243,7 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
 	strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
         strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/29c5ec7142781d91e0c975daea6a7d096c1e64f2/Basic%20Ads/css/Ressidebar.css\">";
 	strVar += "<div id=\"w\">\n <div id=\"topad\" class=\"Ressidebar\">\n <a href="+newBannerLink+">";
-	strVar += "<img src="+newBannerImg+ " alt=\"\" class=\"Ressidebar\"/></a>\n </div> </div>";
+	strVar += "<img src="+newBannerImg+ " alt=\"\"></a>\n </div> </div>";
 	}
 	else
 	{ // 300x300 banners
