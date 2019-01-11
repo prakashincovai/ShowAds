@@ -1,6 +1,7 @@
 //728x214 728x90 Center Full banner needed
 function ResponsiveBannerNamesCenterFull() {
    adBanners = [
+        "pc11012019_728x213.jpg",
         "han10012019_728x128.jpg",
         "Cam10012019_728x209.jpg",
         "power10012019_728x214.jpg",
@@ -48,6 +49,7 @@ function ResponsiveBannerNamesCenterFull() {
 
 function ResponsiveBannerLinksCenterFull() {
    bannerLinks = [
+        "https://clnk.in/hcAR",
         "https://clnk.in/hcij",
         "https://clnk.in/hcil",
         "https://clnk.in/hcim",
