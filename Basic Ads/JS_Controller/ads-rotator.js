@@ -178,7 +178,8 @@ if (AdsRestriction=='Responsive' && Js_one!='1')
         var newBannerImg4  = imgPrefix4 + adBanners[randNum4];
         var newBannerLink4 = bannerLinks[randNum4];
 
-        strVar += "<div style=\"height: 250px;\">";
+        //strVar += "<div style=\"height: 250px;\">";
+        strVar += "<div>";
         strVar += "<div align=\"right\">";
 	strVar += "	<a href=\"https://www.universalmaple.com/2018/01/contact.html\" target=\"_blank\">";
 	strVar += "	<font face = \"Quicksand\" size= \"2\">@Ads</font>";
