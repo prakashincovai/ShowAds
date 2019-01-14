@@ -180,7 +180,7 @@ if (AdsRestriction=='Responsive' && Js_one!='1')
 
         strVar += "<div style=\"height: 250px;\">";
         strVar += "<div align=\"right\">";
-	strVar += "	<a href=\"https://www.demo.com\" target=\"_blank\">";
+	strVar += "	<a href=\"https://www.universalmaple.com/2018/01/contact.html\" target=\"_blank\">";
 	strVar += "	<font face = \"Quicksand\" size= \"2\">@Ads</font>";
 	//strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
 	//strVar += "    class=\"Res\" title=\"Testing\"/>";
@@ -274,7 +274,7 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
 
         strVar += "<div class=\"Ressidebar\">";
 	strVar += "<div align=\"right\">";
-	strVar += "	<a href=\"https://www.demo.com\" target=\"_blank\">";
+	strVar += "	<a href=\"https://www.universalmaple.com/2018/01/contact.html\" target=\"_blank\">";
 	strVar += "	<font face = \"Quicksand\" size= \"2\">@Ads</font>";
 	//strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
 	//strVar += "    class=\"Res\" title=\"Testing\"/>";
