@@ -7,7 +7,9 @@ function ResponsiveBannerNamesSideBarFull() {
        "Ta14012019_300x486.jpeg",
        "a11012019_300x600.jpg",
        "Gosidebar_160x600.gif",
-       "Shoe08012019_200x600.jpeg"
+       "Shoe08012019_200x600.jpeg",
+       "bag16012019_300x473.jpeg",
+       "lm16012019_300x600.jpg"
   ];
 }
 
@@ -19,6 +21,8 @@ function ResponsiveBannerLinksSideBarFull() {
        "https://clnk.in/hdZd",
        "https://clnk.in/hcAW",
        "https://clnk.in/gXeG",
-       "http://fkrt.it/NFUETnuuuN"
+       "http://fkrt.it/NFUETnuuuN",
+       "https://clnk.in/hflr",
+       "https://clnk.in/hflF"
   ];
 }
