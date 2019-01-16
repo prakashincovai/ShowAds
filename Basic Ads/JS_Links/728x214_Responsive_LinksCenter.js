@@ -53,8 +53,12 @@ function ResponsiveBannerNamesCenterFull() {
        "hostgator728x90.gif",
        "Sarrf728x214.png",
        "flipkart728x90.jpg",
-       "samsung728x90.jpg",
-       "honey728x214.png"
+       "la16012019_728x213.jpg",
+       "honey728x214.png",
+       "la16012019_728x2131.jpg",
+       "ta16012019_728x213.jpg",
+       "tatali16012019_738x213.jpg",
+       "tabg16012019_728213.jpg"
   ];
 }
 
@@ -112,7 +116,11 @@ function ResponsiveBannerLinksCenterFull() {
        "https://clnk.in/gXfD",
        "http://fkrt.it/z5QlzLuuuN",
        "http://www.flipkart.com/offers/electronics?affid=prakashincovai",
-       "https://goo.gl/y4tS3k",
-       "https://clnk.in/g1xR"
+       "https://clnk.in/hfls",
+       "https://clnk.in/g1xR",
+       "https://clnk.in/hflx",
+       "https://clnk.in/hfly",
+       "https://clnk.in/hflB",
+       "https://clnk.in/hflD"
   ];
 }
