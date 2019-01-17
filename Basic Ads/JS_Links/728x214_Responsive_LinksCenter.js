@@ -1,7 +1,7 @@
 //728x214 728x90 Center Full banner needed
 function ResponsiveBannerNamesCenterFull() {
    adBanners = [
-        "domain sales17012019_728x90.jpg",
+        "domain_sales17012019_728x90.jpg",
         "l14012019_728x213.jpg",
         "vic14012019_728x213.jpg",
         "cam14012019_728x213.jpg",
