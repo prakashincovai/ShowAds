@@ -58,7 +58,10 @@ function ResponsiveBannerNamesCenterFull() {
        "la16012019_728x2131.jpg",
        "ta16012019_728x213.jpg",
        "tatali16012019_738x213.jpg",
-       "tabg16012019_728213.jpg"
+       "tabg16012019_728213.jpg",
+       "wo17012019_728x190.jpg",
+       "fooder17012019_728x213.jpg",
+       "footer17012019_728x213.jpg"
   ];
 }
 
@@ -121,6 +124,9 @@ function ResponsiveBannerLinksCenterFull() {
        "https://clnk.in/hflx",
        "https://clnk.in/hfly",
        "https://clnk.in/hflB",
-       "https://clnk.in/hflD"
+       "https://clnk.in/hflD",
+       "https://clnk.in/hfW7",
+       "https://clnk.in/hfW9",
+       "https://clnk.in/hfXa"
   ];
 }
