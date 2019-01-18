@@ -1,6 +1,11 @@
 //728x214 728x90 Center Full banner needed
 function ResponsiveBannerNamesCenterFull() {
    adBanners = [
+        "watch18012019_728x213.jpg",
+        "grom18012019_728x213.jpg",
+        "com18012019_728x211.jpg",
+        "app18012019_728x207.jpg",
+        "camera18012019_728x184.jpg",
         "domain_sales17012019_728x90.jpg",
         "l14012019_728x213.jpg",
         "vic14012019_728x213.jpg",
@@ -68,6 +73,11 @@ function ResponsiveBannerNamesCenterFull() {
 
 function ResponsiveBannerLinksCenterFull() {
    bannerLinks = [
+        "https://clnk.in/hgxK",
+        "https://clnk.in/hgxM",
+        "https://clnk.in/hgxO",
+        "https://clnk.in/hgxP",
+        "https://clnk.in/hgxQ",
         "https://www.universalmaple.com/2018/01/contact.html",
         "https://clnk.in/hd7s",
         "https://clnk.in/hd7t",
