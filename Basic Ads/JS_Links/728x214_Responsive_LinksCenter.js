@@ -67,7 +67,8 @@ function ResponsiveBannerNamesCenterFull() {
        "tabg16012019_728213.jpg",
        "wo17012019_728x190.jpg",
        "fooder17012019_728x213.jpg",
-       "footer17012019_728x213.jpg"
+       "footer17012019_728x213.jpg",
+       "shitr19012019_728x213.jpg"
   ];
 }
 
@@ -139,6 +140,7 @@ function ResponsiveBannerLinksCenterFull() {
        "https://clnk.in/hflD",
        "https://clnk.in/hfW7",
        "https://clnk.in/hfW9",
-       "https://clnk.in/hfXa"
+       "https://clnk.in/hfXa",
+       "https://clnk.in/hhvY"
   ];
 }
