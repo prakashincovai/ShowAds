@@ -33,7 +33,8 @@ function BannerNames300x300Full() {
        "f04012019_300x300.jpeg",
        "f104012019_300x300.jpeg",
        "f304012019_300x300.jpeg",
-       "re_16012019_300x238.jpg"
+       "re_16012019_300x238.jpg",
+       "pea19012019_300x300.jpeg"
   ];
 }
 
@@ -71,6 +72,7 @@ function BannerLinks300x300Full() {
        "http://fkrt.it/LMbXInuuuN",
        "http://fkrt.it/2HQzDKNNNN",
        "http://fkrt.it/2HWuCKNNNN",
-       "https://clnk.in/hflv"
+       "https://clnk.in/hflv",
+       "http://fkrt.it/HSfM1LuuuN"
   ];
 }
