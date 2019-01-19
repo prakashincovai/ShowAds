@@ -14,7 +14,8 @@ function ResponsiveBannerNamesSideBarFull() {
        "watc19012019_300x400.jpg",
        "wat19012019_300x400.jpg",
        "Sc19012019_300x400.jpg",
-       "Sc119012019_300x400.jpg"
+       "Sc119012019_300x400.jpg",
+       "red19012019_300x600.jpeg"
   ];
 }
 
@@ -33,6 +34,7 @@ function ResponsiveBannerLinksSideBarFull() {
        "https://clnk.in/hhv0",
        "https://clnk.in/hhv0",
        "https://clnk.in/hhv2",
-       "https://clnk.in/hhv2"
+       "https://clnk.in/hhv2",
+       "http://fkrt.it/rIWye2NNNN"
   ];
 }
