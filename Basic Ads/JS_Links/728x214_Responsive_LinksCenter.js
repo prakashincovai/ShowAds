@@ -1,6 +1,7 @@
 //728x214 728x90 Center Full banner needed
 function ResponsiveBannerNamesCenterFull() {
    adBanners = [
+        "book24012019_728x213.png",
         "bag22012019_728x213.jpg",
         "shoe22012019_728x213.jpg",
         "wat22012019_728x213.jpg",
@@ -83,6 +84,7 @@ function ResponsiveBannerNamesCenterFull() {
 
 function ResponsiveBannerLinksCenterFull() {
    bannerLinks = [
+        "https://clnk.in/hm8C",
         "https://clnk.in/hli6",
         "https://clnk.in/hli8",
         "https://clnk.in/hljb",
