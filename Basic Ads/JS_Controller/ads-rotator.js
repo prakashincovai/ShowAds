@@ -147,7 +147,7 @@ if (AdsRestriction=='Responsive' && Js_one!='1')
 
         // 728x214 728x90 banners 
         strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
-        strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Res.css\">";
+        strVar += "href=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/css/Res.css\">";
         strVar += "<div id=\"w\">\n <div id=\"topad\">\n <a href="+newBannerLink+">";
         strVar += "<img src="+newBannerImg+ " alt=\"\" class=\"res\"/></a>\n </div> </div>";
         }
@@ -180,15 +180,15 @@ if (AdsRestriction=='Responsive' && Js_one!='1')
 
         //strVar += "<div style=\"height: 250px;\">";
         strVar += "<div>";
-        strVar += "<div align=\"right\">";
-	strVar += "	<a href=\"https://www.universalmaple.com/2018/01/contact.html\" target=\"_blank\">";
-	strVar += "	<font face = \"Quicksand\" size= \"2\">@Ads</font>";
+        //strVar += "<div align=\"right\">";
+	//strVar += "	<a href=\"https://www.universalmaple.com/2018/01/contact.html\" target=\"_blank\">";
+	//strVar += "	<font face = \"Quicksand\" size= \"2\">@Ads</font>";
 	//strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
 	//strVar += "    class=\"Res\" title=\"Testing\"/>";
-	strVar += "	</a>";
-	strVar += "</div>";
+	//strVar += "	</a>";
+	//strVar += "</div>";
         strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
-        strVar += "href=\"https://rawcdn.githack.com/prakashincovai/ShowAds/c5f5323b51acd028a3e09fe1aa39d0f3c65227ae/Basic%20Ads/css/Res.css\">";
+        strVar += "href=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/css/Res.css\">";
         strVar += "        <table cellpadding=\"0\" border=\"1\" role=\"presentation\">";
         strVar += "            <tr>";
         strVar += "                <td>";
