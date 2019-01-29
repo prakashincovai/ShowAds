@@ -184,7 +184,7 @@ if (AdsRestriction=='Responsive' && Js_one!='1')
 	strVar += "	<a href=\"https://www.universalmaple.com/2018/01/contact.html\" target=\"_blank\">";
 	strVar += "	<font face = \"Quicksand\" size= \"2\">@Ads</font>";
 	//strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
-	strVar += "    class=\"Res\" title=\"Testing\"/>";
+	//strVar += "    class=\"Res\" title=\"Testing\"/>";
 	strVar += "	</a>";
 	strVar += "</div>";
         strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
