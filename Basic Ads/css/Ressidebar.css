@@ -4,8 +4,33 @@
    height: auto;
 }
 
+.Adscontainer {
+  position: relative;
+  width: 50%;
+  max-width: 728px;
+}
 
+.Adsimage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
+.Adsoverlay {
+  position: absolute; 
+  top: 0; 
+  width: 99%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 12px;
+  padding: 0px;
+  text-align: right;
+}
+
+.Adscontainer:hover .Adsoverlay {
+  opacity: 10;
+}
 
 
 
