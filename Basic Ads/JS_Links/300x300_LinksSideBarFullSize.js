@@ -1,6 +1,7 @@
 //Fullsidebar image 200x600 full banner needed
 function ResponsiveBannerNamesSideBarFull() {
    adBanners = [
+       "Power01022019_300x600.jpeg",
        "shp15012019_300x450.jpg",
        "lar15012019_300x450.jpg",
        "s14012019_300x600.jpg",
@@ -21,6 +22,7 @@ function ResponsiveBannerNamesSideBarFull() {
 
 function ResponsiveBannerLinksSideBarFull() {
    bannerLinks = [
+       "http://fkrt.it/xwsctKNNNN",
        "https://clnk.in/heVG",
        "https://clnk.in/heVI",
        "https://clnk.in/hdZf",
