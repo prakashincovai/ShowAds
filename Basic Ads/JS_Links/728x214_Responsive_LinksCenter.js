@@ -1,6 +1,11 @@
 //728x214 728x90 Center Full banner needed
 function ResponsiveBannerNamesCenterFull() {
    adBanners = [
+        "kids04022019_728x168.jpg",
+        "kids04022019_728x120.jpg",
+        "party04022019_728x213.jpg",
+        "sar04022019_728x213.jpg",
+        "kutt04022019_728x231.jpg",
         "book24012019_728x213.png",
         "bag22012019_728x213.jpg",
         "shoe22012019_728x213.jpg",
@@ -84,6 +89,11 @@ function ResponsiveBannerNamesCenterFull() {
 
 function ResponsiveBannerLinksCenterFull() {
    bannerLinks = [
+        "http://fkrt.it/~8ShVKNNNN",
+        "https://clnk.in/hvrp",
+        "https://clnk.in/hvrr",
+        "https://clnk.in/hvrs",
+        "https://clnk.in/hvrt",
         "https://clnk.in/hm8C",
         "https://clnk.in/hli6",
         "https://clnk.in/hli8",
