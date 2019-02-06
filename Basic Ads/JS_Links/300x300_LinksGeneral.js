@@ -40,7 +40,8 @@ function BannerNames300x300Full() {
        "si22012019_300x300.jpg",
        "angel23012019_300x300.jpg",
        "zoom23012019_300x300.jpeg",
-       "watch02022019_300x300.jpg"
+       "watch02022019_300x300.jpg",
+       "romain06022019_300x300.jpeg"
   ];
 }
 
@@ -85,6 +86,7 @@ function BannerLinks300x300Full() {
        "https://clnk.in/hlja",
        "https://clnk.in/hl2i",
        "https://clnk.in/hl2m",
-       "https://clnk.in/hva5"
+       "https://clnk.in/hva5",
+       "http://fkrt.it/NQnONnuuuN"
   ];
 }
