@@ -83,7 +83,8 @@ function ResponsiveBannerNamesCenterFull() {
        "spe23012019_728x213.jpg",
        "wom23012019_728x213.jpg",
        "astore23012019_728x137.jpg",
-       "smart23012019_728x213.jpg"
+       "smart23012019_728x213.jpg",
+       "Tea06022019_728x213.jpg"
   ];
 }
 
@@ -171,6 +172,7 @@ function ResponsiveBannerLinksCenterFull() {
        "https://clnk.in/hl2h",
        "https://clnk.in/hl2l",
        "https://clnk.in/hl2n",
-       "https://clnk.in/hl2o"
+       "https://clnk.in/hl2o",
+       "https://clnk.in/hxjq"
   ];
 }
