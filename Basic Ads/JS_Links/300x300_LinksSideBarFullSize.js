@@ -3,7 +3,7 @@ function ResponsiveBannerNamesSideBarFull() {
    adBanners = [
        "Powerbank010220191_300x600.jpeg",
        "Power01022019_300x600.jpeg",
-       "shp15012019_300x450.jpg",
+       "dark23072019_200x600.jpeg",
        "lar15012019_300x450.jpg",
        "s14012019_300x600.jpg",
        "Ta14012019_300x486.jpeg",
@@ -26,7 +26,7 @@ function ResponsiveBannerLinksSideBarFull() {
    bannerLinks = [
        "http://fkrt.it/xwsctKNNNN",
        "http://fkrt.it/xwsctKNNNN",
-       "https://clnk.in/heVG",
+       "http://fkrt.it/lNI6u4uuuN",
        "https://clnk.in/heVI",
        "https://clnk.in/hdZf",
        "https://clnk.in/hdZd",
