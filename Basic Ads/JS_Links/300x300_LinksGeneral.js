@@ -2,7 +2,7 @@
 function BannerNames300x300Full() {
    adBanners = [
        "Sony23072019200x300.jpeg",
-       "new24012019_300x197.jpeg",
+       "Shoe_200x300.jpeg",
        "char15012019_300x263.jpeg",
        "su15012019_300x232.jpeg",
        "scr15012019_300x300.jpg",
@@ -48,7 +48,7 @@ function BannerNames300x300Full() {
 function BannerLinks300x300Full() {
    bannerLinks = [
        "http://fkrt.it/lHNjT4uuuN",
-       "https://clnk.in/hm8D",
+       "http://fkrt.it/WYJ46PNNNN",
        "https://clnk.in/heVz",
        "https://clnk.in/heVA",
        "https://clnk.in/heVC",
