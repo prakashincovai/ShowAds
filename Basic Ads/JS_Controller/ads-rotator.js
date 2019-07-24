@@ -139,7 +139,7 @@ if (AdsRestriction=='Responsive' && Js_one!='1')
 {
         if (Rnd==0)
         {
-        var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images/";
+        var imgPrefix   = "https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/images728x214/";
         var randNum     = Math.floor(Math.random() * ((adBanners.length-1) - 0 + 1)) + 0;
 
         var newBannerImg  = imgPrefix + adBanners[randNum];
