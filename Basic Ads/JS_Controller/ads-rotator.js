@@ -270,10 +270,12 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
                      var newBannerLink = mydata[randNum].url;
 
 	 // 300x300 200x200 banners 
-        strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
-        strVar += "href=\""+cssfilepath+ "\">";
+                   strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
+                   strVar += "href=\""+cssfilepath+ "\">";
 	strVar += "<div id=\"w\">\n <div id=\"topad\" class=\"Ressidebar\">\n <a href="+newBannerLink+">";
-	strVar += "<img src="+newBannerImg+ " class=\"Ressidebar\"/></a>\n </div> </div>";
+	strVar += "<img style=\"width: 150px; height: 300px;\" src="+newBannerImg+ " class=\"Ressidebar\"/>";
+                   strVar += "<div class=\"bottom-300x600-Rs-left\"><h3><p style=\"color:white;background-color:green;\">RS.00</p></h3></div>";
+	strVar += "</a>\n </div> </div>";
 	}
 	else
 	{ // 300x300 banners
@@ -306,7 +308,7 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
 	strVar += "<div align=\"right\">";
                    strVar += "	<a href=\"" + contacturl + "\" target=\"_blank\">";
 	strVar += "	<font face = \"Quicksand\" size= \"2\">@Ads</font>";
-	//strVar += "	<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
+	//strVar += "<img src=\"https://raw.githack.com/prakashincovai/ShowAds/master/Basic Ads/fevicon/i.png\" ";
 	//strVar += "    class=\"Res\" title=\"Testing\"/>";
 	strVar += "	</a>";
 	strVar += "</div>";
