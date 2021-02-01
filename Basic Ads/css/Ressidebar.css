@@ -32,6 +32,13 @@
   opacity: 10;
 }
 
+.bottom-Rs-left {
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+  top:110px;
+}
+
 
 
 
