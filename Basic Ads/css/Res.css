@@ -4,6 +4,12 @@
   height: auto;
 }
 
+.bottom-Rs-left {
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+  top:110px;
+}
 
 //td:hover {
  //       border: 1px solid red !important;
