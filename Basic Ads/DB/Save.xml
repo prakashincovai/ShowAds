@@ -1,8 +1,0 @@
-<bookstore>
-  <book category="cooking">
-    <title lang="en">tttt</title>
-    <author>Giada De Laurentiis</author>
-    <year>2005</year>
-    <price>30.00</price>
-  </book>
-</bookstore>
