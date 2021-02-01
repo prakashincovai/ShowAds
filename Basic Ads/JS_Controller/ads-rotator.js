@@ -269,7 +269,7 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
 	  var newBannerImg  = imgPrefix + mydata[randNum].imagename;
                      var newBannerLink = mydata[randNum].url;
 
-	 // 300x300 200x200 banners 
+	 // 300x600 banners 
                    strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
                    strVar += "href=\""+cssfilepath+ "\">";
 	strVar += "<div id=\"w\">\n <div id=\"topad\" class=\"Ressidebar\">\n <a href="+newBannerLink+">";
@@ -278,7 +278,7 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
 	strVar += "</a>\n </div> </div>";
 	}
 	else
-	{ // 300x300 banners
+	{ // 300x300 200x200 banners
 
 
         var randNum     = Math.floor(Math.random() * ((mydata.length-1) - 0 + 1)) + 0;
