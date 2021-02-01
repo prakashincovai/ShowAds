@@ -32,12 +32,13 @@
   opacity: 10;
 }
 
-.bottom-Rs-left {
+.bottom-300x600-Rs-left {
   position: absolute;
   bottom: 8px;
-  left: 50px;
-  top:110px;
+  left: 30px;
+  top:90px;
 }
+
 
 
 
