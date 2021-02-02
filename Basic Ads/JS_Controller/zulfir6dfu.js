@@ -3,7 +3,7 @@ data =[
     "display":"yes",
     "baseurl":"https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads",
     "cssfilepath":"https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/css/Ressidebar.css",
-    "cssfilepathheader":"https://rawcdn.githack.com/prakashincovai/ShowAds/d2e17765e33cac154633e144f8c5733792109fca/Basic%20Ads/css/Res.css",
+    "cssfilepathheader":"https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/css/Res.css",
     "contacturl":"http://www.universalmaple.blogspot.com/2018/01/contact.html",
     "Full": [
     {
