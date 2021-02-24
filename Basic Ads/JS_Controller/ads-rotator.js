@@ -272,7 +272,7 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
 	 // 300x600 banners 
                    strVar += "<link type=\"text/css\" rel=\"stylesheet\n \"";
                    strVar += "href=\""+cssfilepath+ "\">";
-	strVar += "<div id=\"w\">\n <div id=\"topad\" class=\"Ressidebar\">\n <a href="+newBannerLink+">";
+	strVar += "<div id=\"w\">\n <div id=\"topad\" class=\"Ressidebar\">\n <a href="+newBannerLink+" target=\_blank\">";
 	strVar += "<img style=\"width: 150px; height: 300px;\" src="+newBannerImg+ " class=\"Ressidebar\"/>";
                    strVar += "<div class=\"bottom-300x600-Rs-left\"><h3><p style=\"color:white;background-color:green;\">Rs."+ mydata[randNum].price +"</p></h3></div>";
 	strVar += "</a>\n </div> </div>";
