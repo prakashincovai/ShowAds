@@ -274,7 +274,7 @@ else if (AdsRestriction2=='ResponsiveSidebar' && Js_two!=2)
                    strVar += "href=\""+cssfilepath+ "\">";
 	strVar += "<div id=\"w\">\n <div id=\"topad\" class=\"Ressidebar\">\n <a href="+newBannerLink+">";
 	strVar += "<img style=\"width: 150px; height: 300px;\" src="+newBannerImg+ " class=\"Ressidebar\"/>";
-                   strVar += "<div class=\"bottom-300x600-Rs-left\"><h3><p style=\"color:white;background-color:green;\">RS.00</p></h3></div>";
+                   strVar += "<div class=\"bottom-300x600-Rs-left\"><h3><p style=\"color:white;background-color:green;\">Rs."+ mydata[randNum].price +"</p></h3></div>";
 	strVar += "</a>\n </div> </div>";
 	}
 	else
