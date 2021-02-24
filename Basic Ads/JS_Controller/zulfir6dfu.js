@@ -6,6 +6,20 @@ data =[
     "cssfilepathheader":"https://raw.githack.com/prakashincovai/ShowAds/master/Basic%20Ads/css/Res.css",
     "contacturl":"http://www.universalmaple.blogspot.com/2018/01/contact.html",
     "Full": [
+      {
+"companyname":"FlipKart",
+"url":"https://www.flipkart.com/santalum-girls-pink-shoulder-bag/p/itmf3vf37r7cgk4r?affid=prakashincovai",
+"originalurl":"https://www.flipkart.com/santalum-girls-pink-shoulder-bag/p/itmf3vf37r7cgk4r",
+"imagename":"24_02_2021_5_07_09_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"349.00",
+"click":"0",
+"earning":"0",
+"product":"bags_wallets_belts"
+},
     {
         "companyname":"Fkart",
         "url":"http://fkrt.it/xwsctKNNNN",
