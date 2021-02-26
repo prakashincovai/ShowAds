@@ -8,6 +8,20 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"https://www.flipkart.com/indiweaves-girls-printed-cotton-blend-t-shirt/p/itmf3w68w96aezyc?affid=prakashincovai",
+"originalurl":"https://www.flipkart.com/indiweaves-girls-printed-cotton-blend-t-shirt/p/itmf3w68w96aezyc",
+"imagename":"26_02_2021_4_29_19_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"1049.00",
+"click":"0",
+"earning":"0",
+"product":"kids_clothing"
+},
+      {
+"companyname":"FlipKart",
 "url":"https://www.flipkart.com/harcov-hdtv-gold-plated-1-4v-3d-led-plasma-tv-heavy-male-1-5-m-hdmi-cable/p/itmdcc819f010be4?affid=prakashincovai",
 "originalurl":"https://www.flipkart.com/harcov-hdtv-gold-plated-1-4v-3d-led-plasma-tv-heavy-male-1-5-m-hdmi-cable/p/itmdcc819f010be4",
 "imagename":"24_02_2021_5_51_04_Resize.Jpeg",
