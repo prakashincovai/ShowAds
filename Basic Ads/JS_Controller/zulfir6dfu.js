@@ -8,6 +8,20 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"https://www.flipkart.com/aaradhya-fashion-printed-bandhani-handloom-poly-crepe-saree/p/itm098e09d0124dc?affid=prakashincovai",
+"originalurl":"https://www.flipkart.com/aaradhya-fashion-printed-bandhani-handloom-poly-crepe-saree/p/itm098e09d0124dc",
+"imagename":"26_02_2021_4_36_21_Resize.Jpeg",
+"imagefolderpath":"/imagesSideBarFull200x600/",
+"size":"200x600",
+"popular":"medium",
+"display":"yes",
+"price":"720.00",
+"click":"0",
+"earning":"0",
+"product":"womens_clothing"
+},
+      {
+"companyname":"FlipKart",
 "url":"https://www.flipkart.com/indiweaves-girls-printed-cotton-blend-t-shirt/p/itmf3w68w96aezyc?affid=prakashincovai",
 "originalurl":"https://www.flipkart.com/indiweaves-girls-printed-cotton-blend-t-shirt/p/itmf3w68w96aezyc",
 "imagename":"26_02_2021_4_29_19_Resize.Jpeg",
