@@ -8,6 +8,20 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/DLvnDduuuN",
+"originalurl":"http://fkrt.it/DLvnDduuuN",
+"imagename":"27_02_2021_5_37_12_Resize.Jpeg",
+"imagefolderpath":"/imagesSideBarFull200x600/",
+"size":"200x600",
+"popular":"medium",
+"display":"yes",
+"price":"279",
+"click":"0",
+"earning":"0",
+"product":"home_appliances"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/DS51SduuuN",
 "originalurl":"http://fkrt.it/DS51SduuuN",
 "imagename":"27_02_2021_4_24_26_Resize.Jpeg",
