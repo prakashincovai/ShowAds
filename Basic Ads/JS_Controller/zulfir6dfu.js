@@ -8,6 +8,20 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/DS51SduuuN",
+"originalurl":"http://fkrt.it/DS51SduuuN",
+"imagename":"27_02_2021_4_24_26_Resize.Jpeg",
+"imagefolderpath":"/imagesSideBarFull200x600/",
+"size":"200x600",
+"popular":"medium",
+"display":"yes",
+"price":"445.00",
+"click":"0",
+"earning":"0",
+"product":"MensWear"
+},
+      {
+"companyname":"FlipKart",
 "url":"https://www.flipkart.com/aaradhya-fashion-printed-bandhani-handloom-poly-crepe-saree/p/itm098e09d0124dc?affid=prakashincovai",
 "originalurl":"https://www.flipkart.com/aaradhya-fashion-printed-bandhani-handloom-poly-crepe-saree/p/itm098e09d0124dc",
 "imagename":"26_02_2021_4_36_21_Resize.Jpeg",
