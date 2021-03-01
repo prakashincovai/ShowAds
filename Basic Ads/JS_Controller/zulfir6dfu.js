@@ -8,6 +8,20 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/N4EiSduuuN",
+"originalurl":"http://fkrt.it/N4EiSduuuN",
+"imagename":"01_03_2021_5_25_44_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"115",
+"click":"0",
+"earning":"0",
+"product":"home_entertainment"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/N8gR0WuuuN",
 "originalurl":"http://fkrt.it/N8gR0WuuuN",
 "imagename":"01_03_2021_5_08_54_Resize.Jpeg",
