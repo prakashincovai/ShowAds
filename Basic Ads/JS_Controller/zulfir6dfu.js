@@ -8,6 +8,49 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/0lMVbhNNNN",
+"originalurl":"http://fkrt.it/0lMVbhNNNN",
+"imagename":"02_03_2021_4_35_56_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"246",
+"click":"0",
+"earning":"0",
+"product":"network_components"
+}
+,
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/V7OtbWuuuN",
+"originalurl":"http://fkrt.it/V7OtbWuuuN",
+"imagename":"02_03_2021_4_42_42_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"999",
+"click":"0",
+"earning":"0",
+"product":"network_components"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/0lC5dhNNNN",
+"originalurl":"http://fkrt.it/0lC5dhNNNN",
+"imagename":"02_03_2021_4_37_26_Resize.Jpeg",
+"imagefolderpath":"/imagesSideBarFull200x600/",
+"size":"200x600",
+"popular":"medium",
+"display":"yes",
+"price":"249",
+"click":"0",
+"earning":"0",
+"product":"network_components"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/N4EiSduuuN",
 "originalurl":"http://fkrt.it/N4EiSduuuN",
 "imagename":"01_03_2021_5_25_44_Resize.Jpeg",
