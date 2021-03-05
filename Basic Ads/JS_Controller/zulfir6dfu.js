@@ -8,6 +8,49 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/bL74cCNNNN",
+"originalurl":"http://fkrt.it/bL74cCNNNN",
+"imagename":"05_03_2021_6_35_46_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"1484",
+"click":"0",
+"earning":"0",
+"product":"pet_supplies"
+},
+
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/s28ojRuuuN",
+"originalurl":"http://fkrt.it/s28ojRuuuN",
+"imagename":"05_03_2021_6_34_36_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"718",
+"click":"0",
+"earning":"0",
+"product":"pet_supplies"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/sYVpTWuuuN",
+"originalurl":"http://fkrt.it/sYVpTWuuuN",
+"imagename":"05_03_2021_6_36_43_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"1134",
+"click":"0",
+"earning":"0",
+"product":"pet_supplies"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/Ah6SlRuuuN",
 "originalurl":"http://fkrt.it/Ah6SlRuuuN",
 "imagename":"03_03_2021_4_13_32_Resize.Jpeg",
