@@ -8,6 +8,35 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/L9!yx8uuuN",
+"originalurl":"http://fkrt.it/L9!yx8uuuN",
+"imagename":"06_03_2021_4_47_43_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"417",
+"click":"0",
+"earning":"0",
+"product":"baby_care"
+},
+
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/L9C42RuuuN",
+"originalurl":"http://fkrt.it/L9C42RuuuN",
+"imagename":"06_03_2021_4_48_28_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"331",
+"click":"0",
+"earning":"0",
+"product":"baby_care"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/bL74cCNNNN",
 "originalurl":"http://fkrt.it/bL74cCNNNN",
 "imagename":"05_03_2021_6_35_46_Resize.Jpeg",
