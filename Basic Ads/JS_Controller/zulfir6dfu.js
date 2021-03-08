@@ -8,6 +8,48 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/GQYukWuuuN",
+"originalurl":"http://fkrt.it/GQYukWuuuN",
+"imagename":"08_03_2021_6_38_50_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"425",
+"click":"0",
+"earning":"0",
+"product":"toys"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/14oKDlNNNN",
+"originalurl":"http://fkrt.it/14oKDlNNNN",
+"imagename":"08_03_2021_6_38_01_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"360",
+"click":"0",
+"earning":"0",
+"product":"toys"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/14XijvNNNN",
+"originalurl":"http://fkrt.it/14XijvNNNN",
+"imagename":"08_03_2021_6_36_35_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"249",
+"click":"0",
+"earning":"0",
+"product":"toys"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/L9!yx8uuuN",
 "originalurl":"http://fkrt.it/L9!yx8uuuN",
 "imagename":"06_03_2021_4_47_43_Resize.Jpeg",
