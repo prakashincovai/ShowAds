@@ -8,6 +8,34 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/OEKyEeNNNN",
+"originalurl":"http://fkrt.it/OEKyEeNNNN",
+"imagename":"10_03_2021_6_49_09_Resize.Jpeg",
+"imagefolderpath":"/imagesSideBarFull200x600/",
+"size":"200x600",
+"popular":"medium",
+"display":"yes",
+"price":"660",
+"click":"0",
+"earning":"0",
+"product":"womens_clothing"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/akZ405uuuN",
+"originalurl":"http://fkrt.it/akZ405uuuN",
+"imagename":"10_03_2021_6_46_33_Resize.Jpeg",
+"imagefolderpath":"/imagesSideBarFull200x600/",
+"size":"200x600",
+"popular":"medium",
+"display":"yes",
+"price":"584",
+"click":"0",
+"earning":"0",
+"product":"womens_clothing"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/GQYukWuuuN",
 "originalurl":"http://fkrt.it/GQYukWuuuN",
 "imagename":"08_03_2021_6_38_50_Resize.Jpeg",
