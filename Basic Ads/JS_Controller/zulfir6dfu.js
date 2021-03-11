@@ -8,6 +8,48 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/XyagiSNNNN",
+"originalurl":"http://fkrt.it/XyagiSNNNN",
+"imagename":"11_03_2021_6_39_32_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"439",
+"click":"0",
+"earning":"0",
+"product":"computer_peripherals"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/F4VV6muuuN",
+"originalurl":"http://fkrt.it/F4VV6muuuN",
+"imagename":"11_03_2021_6_36_43_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"409",
+"click":"0",
+"earning":"0",
+"product":"computer_peripherals"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/Xyo2!SNNNN",
+"originalurl":"http://fkrt.it/Xyo2!SNNNN",
+"imagename":"11_03_2021_6_41_23_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"296",
+"click":"0",
+"earning":"0",
+"product":"computer_peripherals"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/OEKyEeNNNN",
 "originalurl":"http://fkrt.it/OEKyEeNNNN",
 "imagename":"10_03_2021_6_49_09_Resize.Jpeg",
