@@ -8,6 +8,34 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/uDm11SNNNN",
+"originalurl":"http://fkrt.it/uDm11SNNNN",
+"imagename":"20_03_2021_5_35_51_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"2249",
+"click":"0",
+"earning":"0",
+"product":"food_nutrition"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/u8hGSeNNNN",
+"originalurl":"http://fkrt.it/u8hGSeNNNN",
+"imagename":"20_03_2021_5_34_54_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"949",
+"click":"0",
+"earning":"0",
+"product":"food_nutrition"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/fQBSy5uuuN",
 "originalurl":"http://fkrt.it/fQBSy5uuuN",
 "imagename":"12_03_2021_5_02_26_Resize.Jpeg",
