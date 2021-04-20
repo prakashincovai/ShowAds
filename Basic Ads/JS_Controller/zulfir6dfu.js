@@ -8,6 +8,20 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"https://amzn.clnk.in/eldb",
+"originalurl":"https://amzn.clnk.in/eldb",
+"imagename":"20_04_2021_6_28_14_Resize.Jpeg",
+"imagefolderpath":"/imagesSideBarFull200x600/",
+"size":"200x600",
+"popular":"medium",
+"display":"yes",
+"price":"250",
+"click":"0",
+"earning":"0",
+"product":"bags_wallets_belts"
+},
+      {
+"companyname":"FlipKart",
 "url":"http://fkrt.it/uDm11SNNNN",
 "originalurl":"http://fkrt.it/uDm11SNNNN",
 "imagename":"20_03_2021_5_35_51_Resize.Jpeg",
