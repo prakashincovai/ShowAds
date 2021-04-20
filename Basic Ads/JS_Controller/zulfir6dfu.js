@@ -8,6 +8,20 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"https://amzn.clnk.in/eldw",
+"originalurl":"https://amzn.clnk.in/eldw",
+"imagename":"20_04_2021_6_46_09_Resize.Jpeg",
+"imagefolderpath":"/imagesSideBarFull200x600/",
+"size":"200x600",
+"popular":"medium",
+"display":"yes",
+"price":"379",
+"click":"0",
+"earning":"0",
+"product":"watches"
+},
+      {
+"companyname":"FlipKart",
 "url":"https://amzn.clnk.in/eldq",
 "originalurl":"https://amzn.clnk.in/eldq",
 "imagename":"20_04_2021_6_39_49_Resize.Jpeg",
