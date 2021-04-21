@@ -8,6 +8,48 @@ data =[
     "Full": [
       {
 "companyname":"FlipKart",
+"url":"http://fkrt.it/K6m7c5uuuN",
+"originalurl":"http://fkrt.it/K6m7c5uuuN",
+"imagename":"21_04_2021_6_55_07_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"229",
+"click":"0",
+"earning":"0",
+"product":"bags_wallets_belts"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/noeOQeNNNN",
+"originalurl":"http://fkrt.it/noeOQeNNNN",
+"imagename":"21_04_2021_6_54_07_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"420",
+"click":"0",
+"earning":"0",
+"product":"bags_wallets_belts"
+},
+      {
+"companyname":"FlipKart",
+"url":"http://fkrt.it/noxoLeNNNN",
+"originalurl":"http://fkrt.it/noxoLeNNNN",
+"imagename":"21_04_2021_6_55_46_Resize.Jpeg",
+"imagefolderpath":"/images300x300/",
+"size":"300x300",
+"popular":"medium",
+"display":"yes",
+"price":"2130",
+"click":"0",
+"earning":"0",
+"product":"bags_wallets_belts"
+},
+      {
+"companyname":"FlipKart",
 "url":"https://amzn.clnk.in/eldw",
 "originalurl":"https://amzn.clnk.in/eldw",
 "imagename":"20_04_2021_6_46_09_Resize.Jpeg",
