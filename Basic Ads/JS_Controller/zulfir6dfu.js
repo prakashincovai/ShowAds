@@ -780,7 +780,7 @@ data =[
     },
      {
         "companyname":"Fkart",
-        "url":"http://fkrt.it/rIWye2NNNN",
+        "url":"https://www.flipkart.com/offers-store?affid=prakashincovai",
         "originalurl":"xxx",
         "imagename":"red19012019_300x600.jpeg",
         "imagefolderpath":"/imagesSideBarFull200x600/",
