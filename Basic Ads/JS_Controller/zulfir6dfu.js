@@ -975,7 +975,7 @@ data =[
 },
 {
         "companyname":"xxx",
-        "url":"http://fkrt.it/Wum14PNNNN",
+        "url":"https://www.flipkart.com/offers-store?affid=prakashincovai",
         "originalurl":"xxx",
         "imagename":"blackwat_250300.jpeg",
         "imagefolderpath":"/images300x300/",
@@ -989,7 +989,7 @@ data =[
 },
 {
         "companyname":"xxx",
-        "url":"http://fkrt.it/Wum14PNNNN",
+        "url":"https://www.flipkart.com/offers-store?affid=prakashincovai",
         "originalurl":"xxx",
         "imagename":"wat23072019_250300.jpeg",
         "imagefolderpath":"/images300x300/",
@@ -1003,7 +1003,7 @@ data =[
 },
 {
         "companyname":"xxx",
-        "url":"http://fkrt.it/Wum14PNNNN",
+        "url":"https://www.flipkart.com/offers-store?affid=prakashincovai",
         "originalurl":"xxx",
         "imagename":"watc23072019_250300.jpeg",
         "imagefolderpath":"/images300x300/",
